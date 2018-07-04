@@ -1,0 +1,106 @@
+\nonstopmode
+
+\documentclass
+[
+    a4paper,
+    twoside,
+    12pt
+]
+{report}
+\usepackage[utf8]{inputenc}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[a4paper, left=3.19cm, right=3.19cm, top=2.54cm, bottom=2.54cm]{geometry}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[bottom]{footmisc}
+\usepackage{array}
+\usepackage{ntheorem}
+\usepackage{parskip}
+\usepackage[right]{eurosym}
+\usepackage{xcolor}
+\usepackage[hyphens]{url}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{theorem}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.5}
+\usepackage{csvsimple}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{bchart}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{mathptmx}
+%\usepackage{showframe}
+\pagestyle{plain}
+\rhead{\thepage}
+\sloppy
+
+\usepackage[
+backend=biber,
+style=apa,
+citestyle=authoryear
+]{biblatex}
+
+\addbibresource{references.bib}
+\DeclareLanguageMapping{american}{american-apa}
+
+%\setlength{\unitlength}{1cm}
+%\setlength{\oddsidemargin}{0.3cm}
+%\setlength{\evensidemargin}{0.3cm}
+%\setlength{\textwidth}{15.5cm}
+%\setlength{\topmargin}{-1.2cm}
+%\setlength{\textheight}{24.7cm}
+%\columnsep 0.5cm
+
+%\title{Seminararbeit}
+\selectcolormodel{gray}{
+
+\input{config.tex}			
+		
+\newcommand{\link}[1]{\ref{#1} (S. \pageref{#1})}
+\begin{document}
+
+\begin{titlepage}
+    \vspace*{1.0cm}
+    \begin{center}
+        \begin{Large}
+        \textbf{A neural network-based approach to accent conversion} \\
+        \end{Large}
+        \vspace*{1.0cm}
+        \textit{Kenny W. Lino} \\
+        \vspace*{1.5cm}
+        Msc. Dissertation \\
+        \vspace*{0.5cm}
+        \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.15]{img/UM-coat-of-arms.png}
+    	\end{figure}
+       \vspace*{1.0cm}
+       Department of Intelligent Computer Systems \\
+       Faculty of Information and Communication Technology \\
+       University of Malta \\
+       2018 \\
+       
+       \vspace*{2.0cm}
+	   Supervisors: \\
+       Claudia Borg, Department of Artificial Intelligence, University of Malta \\
+       Andrea De Marco, Institute of Space Sciences and Astronomy, University of Malta \\
+       Eva Navas, Department of Communications Engineering, University of the Basque Country \\
+       
+       \vspace*{4.5cm}
+       Submitted in partial fulfilment of the requirements for the Degree of \\
+       European Master of Science in Human Language Science and Technology
+    \end{center}
+
+
+
+\end{titlepage}
+
+\onehalfspacing
+\pagenumbering{Roman}
+

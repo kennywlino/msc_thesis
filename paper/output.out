@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{chapter*.2}{Contents}{}% 2
+\BOOKMARK [1][-]{chapter*.3}{List of Figures}{}% 3
+\BOOKMARK [1][-]{section*.4}{List of Abbreviations}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Research Questions}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Thesis Overview}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Voice conversion}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Accent conversion}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Features}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.3.1}{Mel-frequency cepstrum coefficient}{section.2.3}% 12
+\BOOKMARK [0][-]{chapter.3}{Literature Review}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Theoretical and educational motivations}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Computer-assisted pronunciation training systems}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Voice conversion}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Accent conversion}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Design and methodology}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Data}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Experiment 1: GMM-based accent conversion\205 a reproduction of }{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.3}{Experiment 2: I-vector based accent conversion}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Experimental results}{}% 22
