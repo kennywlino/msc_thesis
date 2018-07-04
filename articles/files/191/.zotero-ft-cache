@@ -1,0 +1,57 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1703.10135
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1703
+Change to browse by:
+cs
+cs.LG
+cs.SD
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Yuxuan Wang
+R. J. Skerry-Ryan
+Daisy Stanton
+Yonghui Wu
+Ron J. Weiss
+...
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Tacotron: Towards End-to-End Speech Synthesis
+Authors: Yuxuan Wang , RJ Skerry-Ryan , Daisy Stanton , Yonghui Wu , Ron J. Weiss , Navdeep Jaitly , Zongheng Yang , Ying Xiao , Zhifeng Chen , Samy Bengio , Quoc Le , Yannis Agiomyrgiannakis , Rob Clark , Rif A. Saurous
+(Submitted on 29 Mar 2017 ( v1 ), last revised 6 Apr 2017 (this version, v2))
+
+    Abstract: A text-to-speech synthesis system typically consists of multiple stages, such as a text analysis frontend, an acoustic model and an audio synthesis module. Building these components often requires extensive domain expertise and may contain brittle design choices. In this paper, we present Tacotron, an end-to-end generative text-to-speech model that synthesizes speech directly from characters. Given <text, audio> pairs, the model can be trained completely from scratch with random initialization. We present several key techniques to make the sequence-to-sequence framework perform well for this challenging task. Tacotron achieves a 3.82 subjective 5-scale mean opinion score on US English, outperforming a production parametric system in terms of naturalness. In addition, since Tacotron generates speech at the frame level, it's substantially faster than sample-level autoregressive methods. 
+
+Comments: 	Submitted to Interspeech 2017. v2 changed paper title to be consistent with our conference submission (no content change other than typo fixes)
+Subjects: 	Computation and Language (cs.CL) ; Learning (cs.LG); Sound (cs.SD)
+Cite as: 	arXiv:1703.10135 [cs.CL]
+  	(or arXiv:1703.10135v2 [cs.CL] for this version)
+Submission history
+From: Yuxuan Wang [ view email ]
+[v1] Wed, 29 Mar 2017 16:55:13 GMT (465kb,D)
+[v2] Thu, 6 Apr 2017 21:20:34 GMT (465kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

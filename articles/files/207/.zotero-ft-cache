@@ -1,0 +1,51 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1712.08363
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.SD
+< prev  |  next >
+new  | recent  | 1712
+Change to browse by:
+cs
+eess
+eess.AS
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Sound
+Title: On Using Backpropagation for Speech Texture Generation and Voice Conversion
+Authors: Jan Chorowski , Ron J. Weiss , Rif A. Saurous , Samy Bengio
+(Submitted on 22 Dec 2017 ( v1 ), last revised 8 Mar 2018 (this version, v2))
+
+    Abstract: Inspired by recent work on neural network image generation which rely on backpropagation towards the network inputs, we present a proof-of-concept system for speech texture synthesis and voice conversion based on two mechanisms: approximate inversion of the representation learned by a speech recognition neural network, and on matching statistics of neuron activations between different source and target utterances. Similar to image texture synthesis and neural style transfer, the system works by optimizing a cost function with respect to the input waveform samples. To this end we use a differentiable mel-filterbank feature extraction pipeline and train a convolutional CTC speech recognition network. Our system is able to extract speaker characteristics from very limited amounts of target speaker data, as little as a few seconds, and can be used to generate realistic speech babble or reconstruct an utterance in a different voice. 
+
+Comments: 	Accepted to ICASSP 2018
+Subjects: 	Sound (cs.SD) ; Audio and Speech Processing (eess.AS); Machine Learning (stat.ML)
+Cite as: 	arXiv:1712.08363 [cs.SD]
+  	(or arXiv:1712.08363v2 [cs.SD] for this version)
+Submission history
+From: Jan Chorowski [ view email ]
+[v1] Fri, 22 Dec 2017 09:19:23 GMT (2070kb,D)
+[v2] Thu, 8 Mar 2018 09:17:27 GMT (2070kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

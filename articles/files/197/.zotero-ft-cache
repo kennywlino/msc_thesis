@@ -1,0 +1,52 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1802.06006
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1802
+Change to browse by:
+cs
+cs.LG
+cs.SD
+eess
+eess.AS
+References & Citations
+
+    NASA ADS
+
+1 blog link
+( what is this? )
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Neural Voice Cloning with a Few Samples
+Authors: Sercan O. Arik , Jitong Chen , Kainan Peng , Wei Ping , Yanqi Zhou
+(Submitted on 14 Feb 2018 ( v1 ), last revised 20 Mar 2018 (this version, v2))
+
+    Abstract: Voice cloning is a highly desired feature for personalized speech interfaces. Neural network based speech synthesis has been shown to generate high quality speech for a large number of speakers. In this paper, we introduce a neural voice cloning system that takes a few audio samples as input. We study two approaches: speaker adaptation and speaker encoding. Speaker adaptation is based on fine-tuning a multi-speaker generative model with a few cloning samples. Speaker encoding is based on training a separate model to directly infer a new speaker embedding from cloning audios and to be used with a multi-speaker generative model. In terms of naturalness of the speech and its similarity to original speaker, both approaches can achieve good performance, even with very few cloning audios. While speaker adaptation can achieve better naturalness and similarity, the cloning time or required memory for the speaker encoding approach is significantly less, making it favorable for low-resource deployment. 
+
+Subjects: 	Computation and Language (cs.CL) ; Learning (cs.LG); Sound (cs.SD); Audio and Speech Processing (eess.AS)
+Cite as: 	arXiv:1802.06006 [cs.CL]
+  	(or arXiv:1802.06006v2 [cs.CL] for this version)
+Submission history
+From: Sercan Arik [ view email ]
+[v1] Wed, 14 Feb 2018 18:24:41 GMT (881kb,D)
+[v2] Tue, 20 Mar 2018 21:58:02 GMT (900kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

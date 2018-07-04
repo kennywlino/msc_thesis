@@ -1,0 +1,51 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > eess > arXiv:1804.00425
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+eess.AS
+< prev  |  next >
+new  | recent  | 1804
+Change to browse by:
+cs
+cs.CL
+cs.SD
+eess
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Electrical Engineering and Systems Science > Audio and Speech Processing
+Title: High-quality nonparallel voice conversion based on cycle-consistent adversarial network
+Authors: Fuming Fang , Junichi Yamagishi , Isao Echizen , Jaime Lorenzo-Trueba
+(Submitted on 2 Apr 2018)
+
+    Abstract: Although voice conversion (VC) algorithms have achieved remarkable success along with the development of machine learning, superior performance is still difficult to achieve when using nonparallel data. In this paper, we propose using a cycle-consistent adversarial network (CycleGAN) for nonparallel data-based VC training. A CycleGAN is a generative adversarial network (GAN) originally developed for unpaired image-to-image translation. A subjective evaluation of inter-gender conversion demonstrated that the proposed method significantly outperformed a method based on the Merlin open source neural network speech synthesis system (a parallel VC system adapted for our setup) and a GAN-based parallel VC system. This is the first research to show that the performance of a nonparallel VC method can exceed that of state-of-the-art parallel VC methods. 
+
+Comments: 	accepted at ICASSP 2018
+Subjects: 	Audio and Speech Processing (eess.AS) ; Computation and Language (cs.CL); Sound (cs.SD); Machine Learning (stat.ML)
+Cite as: 	arXiv:1804.00425 [eess.AS]
+  	(or arXiv:1804.00425v1 [eess.AS] for this version)
+Submission history
+From: Fuming Fang [ view email ]
+[v1] Mon, 2 Apr 2018 07:58:23 GMT (45kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

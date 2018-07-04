@@ -1,0 +1,53 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1512.01809
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.SD
+< prev  |  next >
+new  | recent  | 1512
+Change to browse by:
+cs
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Nguyen Quy Hy
+Siu Wa Lee
+Xiaohai Tian
+Minghui Dong
+Engsiong Chng
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Sound
+Title: High quality voice conversion using prosodic and high-resolution spectral features
+Authors: Hy Quy Nguyen , Siu Wa Lee , Xiaohai Tian , Minghui Dong , Eng Siong Chng
+(Submitted on 6 Dec 2015)
+
+    Abstract: Voice conversion methods have advanced rapidly over the last decade. Studies have shown that speaker characteristics are captured by spectral feature as well as various prosodic features. Most existing conversion methods focus on the spectral feature as it directly represents the timbre characteristics, while some conversion methods have focused only on the prosodic feature represented by the fundamental frequency. In this paper, a comprehensive framework using deep neural networks to convert both timbre and prosodic features is proposed. The timbre feature is represented by a high-resolution spectral feature. The prosodic features include F0, intensity and duration. It is well known that DNN is useful as a tool to model high-dimensional features. In this work, we show that DNN initialized by our proposed autoencoder pretraining yields good quality DNN conversion models. This pretraining is tailor-made for voice conversion and leverages on autoencoder to capture the generic spectral shape of source speech. Additionally, our framework uses segmental DNN models to capture the evolution of the prosodic features over time. To reconstruct the converted speech, the spectral feature produced by the DNN model is combined with the three prosodic features produced by the DNN segmental models. Our experimental results show that the application of both prosodic and high-resolution spectral features leads to quality converted speech as measured by objective evaluation and subjective listening tests. 
+
+Subjects: 	Sound (cs.SD)
+DOI : 	10.1007/s11042-015-3039-x
+Cite as: 	arXiv:1512.01809 [cs.SD]
+  	(or arXiv:1512.01809v1 [cs.SD] for this version)
+Submission history
+From: Hy Quy Nguyen [ view email ]
+[v1] Sun, 6 Dec 2015 17:26:52 GMT (1159kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

@@ -1,0 +1,51 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > eess > arXiv:1804.04262
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+eess.AS
+< prev  |  next >
+new  | recent  | 1804
+Change to browse by:
+cs
+cs.CL
+cs.SD
+eess
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Electrical Engineering and Systems Science > Audio and Speech Processing
+Title: The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods
+Authors: Jaime Lorenzo-Trueba , Junichi Yamagishi , Tomoki Toda , Daisuke Saito , Fernando Villavicencio , Tomi Kinnunen , Zhenhua Ling
+(Submitted on 12 Apr 2018)
+
+    Abstract: We present the Voice Conversion Challenge 2018, designed as a follow up to the 2016 edition with the aim of providing a common framework for evaluating and comparing different state-of-the-art voice conversion (VC) systems. The objective of the challenge was to perform speaker conversion (i.e. transform the vocal identity) of a source speaker to a target speaker while maintaining linguistic information. As an update to the previous challenge, we considered both parallel and non-parallel data to form the Hub and Spoke tasks, respectively. A total of 23 teams from around the world submitted their systems, 11 of them additionally participated in the optional Spoke task. A large-scale crowdsourced perceptual evaluation was then carried out to rate the submitted converted speech in terms of naturalness and similarity to the target speaker identity. In this paper, we present a brief summary of the state-of-the-art techniques for VC, followed by a detailed explanation of the challenge tasks and the results that were obtained. 
+
+Comments: 	Accepted for Speaker Odyssey 2018
+Subjects: 	Audio and Speech Processing (eess.AS) ; Computation and Language (cs.CL); Sound (cs.SD); Machine Learning (stat.ML)
+Cite as: 	arXiv:1804.04262 [eess.AS]
+  	(or arXiv:1804.04262v1 [eess.AS] for this version)
+Submission history
+From: Junichi Yamagishi Dr. [ view email ]
+[v1] Thu, 12 Apr 2018 00:14:10 GMT (388kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

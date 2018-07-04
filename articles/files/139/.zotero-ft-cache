@@ -1,0 +1,74 @@
+
+
+    Documents
+    Authors
+    Tables
+
+    Log in
+    Sign up
+    MetaCart
+    Donate
+
+CiteSeerX logo
+Documents:
+Advanced Search Include Citations
+Authors:
+Advanced Search Include Citations | Disambiguate
+Tables:
+Automatic Emotion Recognition using Prosodic Parameters (2005)
+Cached
+
+    Download as a PDF
+
+Download Links
+
+    [aholab.ehu.es]
+
+    Save to List
+    Add to Collection
+    Correct Errors
+    Monitor Changes
+
+by Iker Luengo , Eva Navas , Inmaculada Hernáez , Jon Sánchez
+Venue: 	in Proc. of INTERSPEECH
+Citations: 	10 - 0 self
+
+    Summary
+    Citations
+    Active Bibliography
+    Co-citation
+    Clustered Documents
+    Version History
+
+BibTeX
+
+@INPROCEEDINGS{Luengo05automaticemotion,
+    author = {Iker Luengo and Eva Navas and Inmaculada Hernáez and Jon Sánchez},
+    title = {Automatic Emotion Recognition using Prosodic Parameters},
+    booktitle = {in Proc. of INTERSPEECH},
+    year = {2005},
+    pages = {493--496}
+}
+Share
+Facebook 	Twitter 	Reddit 	Bibsonomy
+OpenURL
+ 
+Abstract
+
+This paper presents the experiments made to automatically identify emotion in an emotional speech database for Basque. Three different classifiers have been built: one using spectral features and GMM, other with prosodic features and SVM and the last one with prosodic features and GMM. 86 prosodic features were calculated and then an algorithm to select the most relevant ones was applied. The first classifier gives the best result with a 98.4 % accuracy when using 512 mixtures, but the classifier built with the best 6 prosodic features achieves an accuracy of 92.3 % in spite of its simplicity, showing that prosodic information is very useful to identify emotions. 1.
+Keyphrases
+
+prosodic feature     prosodic parameter     automatic emotion recognition     last one     emotional speech database     spectral feature     different classifier     prosodic information     relevant one     first classifier    
+Powered by: Apache Solr
+
+    About CiteSeerX
+    Submit and Index Documents
+    Privacy Policy
+    Help
+    Data
+    Source
+    Contact Us
+
+Developed at and hosted by The College of Information Sciences and Technology
+
+© 2007-2018 The Pennsylvania State University

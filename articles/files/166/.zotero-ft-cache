@@ -1,0 +1,49 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1803.09047
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1803
+Change to browse by:
+cs
+cs.LG
+cs.SD
+eess
+eess.AS
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron
+Authors: RJ Skerry-Ryan , Eric Battenberg , Ying Xiao , Yuxuan Wang , Daisy Stanton , Joel Shor , Ron J. Weiss , Rob Clark , Rif A. Saurous
+(Submitted on 24 Mar 2018)
+
+    Abstract: We present an extension to the Tacotron speech synthesis architecture that learns a latent embedding space of prosody, derived from a reference acoustic representation containing the desired prosody. We show that conditioning Tacotron on this learned embedding space results in synthesized audio that matches the prosody of the reference signal with fine time detail even when the reference and synthesis speakers are different. Additionally, we show that a reference prosody embedding can be used to synthesize text that is different from that of the reference utterance. We define several quantitative and subjective metrics for evaluating prosody transfer, and report results with accompanying audio samples from single-speaker and 44-speaker Tacotron models on a prosody transfer task. 
+
+Subjects: 	Computation and Language (cs.CL) ; Learning (cs.LG); Sound (cs.SD); Audio and Speech Processing (eess.AS)
+Cite as: 	arXiv:1803.09047 [cs.CL]
+  	(or arXiv:1803.09047v1 [cs.CL] for this version)
+Submission history
+From: R J Skerry-Ryan [ view email ]
+[v1] Sat, 24 Mar 2018 02:52:58 GMT (873kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

@@ -1,0 +1,77 @@
+
+
+    Documents
+    Authors
+    Tables
+
+    Log in
+    Sign up
+    MetaCart
+    Donate
+
+CiteSeerX logo
+Documents:
+Advanced Search Include Citations
+Authors:
+Advanced Search Include Citations | Disambiguate
+Tables:
+Developing objective measures of foreign-accent conversion (2010)
+Cached
+
+    Download as a PDF
+
+Download Links
+
+    [www.cs.tamu.edu]
+    [www.cse.tamu.edu]
+    [www.cs.tamu.edu]
+    [www.cse.tamu.edu]
+    [www.cs.tamu.edu]
+    [www.cse.tamu.edu]
+    [psi.cse.tamu.edu]
+
+    Save to List
+    Add to Collection
+    Correct Errors
+    Monitor Changes
+
+by Daniel Felps , Student Member , Ricardo Gutierrez-osuna , Senior Member
+Venue: 	IEEE Transactions on Audio, Speech, and Language Processing
+Citations: 	4 - 3 self
+
+    Summary
+    Citations
+    Active Bibliography
+    Co-citation
+    Clustered Documents
+    Version History
+
+BibTeX
+
+@ARTICLE{Felps10developingobjective,
+    author = {Daniel Felps and Student Member and Ricardo Gutierrez-osuna and Senior Member},
+    title = {Developing objective measures of foreign-accent conversion},
+    journal = {IEEE Transactions on Audio, Speech, and Language Processing},
+    year = {2010},
+    pages = {1030--1040}
+}
+Share
+Facebook 	Twitter 	Reddit 	Bibsonomy
+OpenURL
+ 
+Abstract
+
+Abstract—Various methods have recently appeared to transform foreign-accented speech into its native-accented counterpart. Eval-uation of these accent conversion methods requires extensive lis-tening tests across a number of perceptual dimensions. This article presents three objective measures that may be used to assess the acoustic quality, degree of foreign accent, and speaker identity of accent-converted utterances. Accent conversion generates novel ut-terances: those of a foreign speaker with a native accent. There-fore, the acoustic quality in accent conversion cannot be evaluated with conventional measures of spectral distortion, which assume that a clean recording of the speech signal is available for compar-ison. Here we evaluate a single-ended measure of speech quality, ITU-T recommendation P.563 for narrow-band telephony. We also propose a measure of foreign accent that exploits a weakness of automatic speech recognizers: their sensitivity to foreign accents. Namely, we use phoneme-level match scores given by the HTK rec-ognizer trained on a large number of English American speakers to obtain a measure of native accent. Finally, we propose a measure of speaker identity that projects acoustic vectors (e.g., Mel cep-stral, F0) onto the linear discriminant that maximizes separability for a given pair of source and target speakers. The three measures are evaluated on a corpus of accent-converted utterances that had been previously rated through perceptual tests. Our results show that the three measures have a high degree of correlation with their corresponding subjective ratings, suggesting that they may be used to accelerate the development of foreign-accent conversion tools. Applications of these measures in the context of computer assisted pronunciation training and voice conversion are also discussed. Index Terms—Accent conversion, foreign accent recognition, speaker recognition, voice conversion. I.
+Powered by: Apache Solr
+
+    About CiteSeerX
+    Submit and Index Documents
+    Privacy Policy
+    Help
+    Data
+    Source
+    Contact Us
+
+Developed at and hosted by The College of Information Sciences and Technology
+
+© 2007-2018 The Pennsylvania State University

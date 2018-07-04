@@ -1,0 +1,51 @@
+
+Loading [MathJax]/extensions/TeX/AMSmath.js
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1706.03952
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF only
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1706
+Change to browse by:
+cs
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Jean-Philippe Bernardy
+Charalambos Themistocleous
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Modelling prosodic structure using Artificial Neural Networks
+Authors: Jean-Philippe Bernardy , Charalambos Themistocleous
+(Submitted on 13 Jun 2017 ( v1 ), last revised 15 Jun 2017 (this version, v2))
+
+    Abstract: The ability to accurately perceive whether a speaker is asking a question or is making a statement is crucial for any successful interaction. However, learning and classifying tonal patterns has been a challenging task for automatic speech recognition and for models of tonal representation, as tonal contours are characterized by significant variation. This paper provides a classification model of Cypriot Greek questions and statements. We evaluate two state-of-the-art network architectures: a Long Short-Term Memory (LSTM) network and a convolutional network (ConvNet). The ConvNet outperforms the LSTM in the classification task and exhibited an excellent performance with 95% classification accuracy. 
+
+Comments: 	4 pages, 3 figures, Experimental linguistics 2017
+Subjects: 	Computation and Language (cs.CL)
+Cite as: 	arXiv:1706.03952 [cs.CL]
+  	(or arXiv:1706.03952v2 [cs.CL] for this version)
+Submission history
+From: Charalambos Themistocleous [ view email ]
+[v1] Tue, 13 Jun 2017 08:28:39 GMT (828kb)
+[v2] Thu, 15 Jun 2017 12:49:57 GMT (828kb)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

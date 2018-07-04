@@ -1,0 +1,49 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1803.09017
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1803
+Change to browse by:
+cs
+cs.LG
+cs.SD
+eess
+eess.AS
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis
+Authors: Yuxuan Wang , Daisy Stanton , Yu Zhang , RJ Skerry-Ryan , Eric Battenberg , Joel Shor , Ying Xiao , Fei Ren , Ye Jia , Rif A. Saurous
+(Submitted on 23 Mar 2018)
+
+    Abstract: In this work, we propose "global style tokens" (GSTs), a bank of embeddings that are jointly trained within Tacotron, a state-of-the-art end-to-end speech synthesis system. The embeddings are trained with no explicit labels, yet learn to model a large range of acoustic expressiveness. GSTs lead to a rich set of significant results. The soft interpretable "labels" they generate can be used to control synthesis in novel ways, such as varying speed and speaking style - independently of the text content. They can also be used for style transfer, replicating the speaking style of a single audio clip across an entire long-form text corpus. When trained on noisy, unlabeled found data, GSTs learn to factorize noise and speaker identity, providing a path towards highly scalable but robust speech synthesis. 
+
+Subjects: 	Computation and Language (cs.CL) ; Learning (cs.LG); Sound (cs.SD); Audio and Speech Processing (eess.AS)
+Cite as: 	arXiv:1803.09017 [cs.CL]
+  	(or arXiv:1803.09017v1 [cs.CL] for this version)
+Submission history
+From: Yuxuan Wang [ view email ]
+[v1] Fri, 23 Mar 2018 23:56:49 GMT (7675kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

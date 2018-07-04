@@ -1,0 +1,55 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1711.00520
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CL
+< prev  |  next >
+new  | recent  | 1711
+Change to browse by:
+cs
+cs.SD
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Yuxuan Wang
+R. J. Skerry-Ryan
+Ying Xiao
+Daisy Stanton
+Joel Shor
+...
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computation and Language
+Title: Uncovering Latent Style Factors for Expressive Speech Synthesis
+Authors: Yuxuan Wang , RJ Skerry-Ryan , Ying Xiao , Daisy Stanton , Joel Shor , Eric Battenberg , Rob Clark , Rif A. Saurous
+(Submitted on 1 Nov 2017)
+
+    Abstract: Prosodic modeling is a core problem in speech synthesis. The key challenge is producing desirable prosody from textual input containing only phonetic information. In this preliminary study, we introduce the concept of "style tokens" in Tacotron, a recently proposed end-to-end neural speech synthesis model. Using style tokens, we aim to extract independent prosodic styles from training data. We show that without annotation data or an explicit supervision signal, our approach can automatically learn a variety of prosodic variations in a purely data-driven way. Importantly, each style token corresponds to a fixed style factor regardless of the given text sequence. As a result, we can control the prosodic style of synthetic speech in a somewhat predictable and globally consistent way. 
+
+Comments: 	Submitted to NIPS ML4Audio workshop and ICASSP
+Subjects: 	Computation and Language (cs.CL) ; Sound (cs.SD)
+Cite as: 	arXiv:1711.00520 [cs.CL]
+  	(or arXiv:1711.00520v1 [cs.CL] for this version)
+Submission history
+From: Yuxuan Wang [ view email ]
+[v1] Wed, 1 Nov 2017 19:40:00 GMT (796kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter
