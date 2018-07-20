@@ -74,7 +74,7 @@ citestyle=authoryear
         \vspace*{1.0cm}
         \textit{Kenny W. Lino} \\
         \vspace*{1.5cm}
-        Msc. Dissertation \\
+        M.Sc. Dissertation \\
         \vspace*{0.5cm}
         \begin{figure}[H]
         \centering
@@ -89,7 +89,7 @@ citestyle=authoryear
        \vspace*{2.0cm}
 	   Supervisors: \\
        Claudia Borg, Department of Artificial Intelligence, University of Malta \\
-       Andrea De Marco, Institute of Space Sciences and Astronomy, University of Malta \\
+       Andrea DeMarco, Institute of Space Sciences and Astronomy, University of Malta \\
        Eva Navas, Department of Communications Engineering, University of the Basque Country \\
        
        \vspace*{4.5cm}
@@ -132,7 +132,8 @@ I understand that the penalties for making a false declaration may include, but 
        Date:
 
 \newpage
-\section*{Abstract}\addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
 
 With the emergence of the use of technology in language learning through
 tools like Rosetta Stone and Duolingo, learners have slowly been given
@@ -158,7 +159,7 @@ increasingly successful in achieving better accuracy and quality in a
 variety of tasks, allowing for the potential to return and address these
 said gaps in quality and performance for voice conversion.
 
-In this thesis, I aim to investigate these advancements in applying deep
+This dissertation investigates these advancements in applying deep
 neural networks to develop a voice conversion system that could
 potentially serve as a feedback mechanism as a part of a larger
 computer-based pronunciation training system. Specifically, I intend to
@@ -173,7 +174,9 @@ of Gaussian Mixture Models for conversion.
 \listoffigures
 \addcontentsline{toc}{section}{List of Figures}
 
-\section*{List of Abbreviations}\addcontentsline{toc}{section}{List of Abbreviations}\begin{tabular}{ll}
+\section*{List of Abbreviations}
+\addcontentsline{toc}{section}{List of Abbreviations}
+\begin{tabular}{ll}
     CAPT    & Computer Assisted Pronunciation Training \\
     CP      & Critical Period \\
     L1/L2    & First and second language \\
@@ -185,7 +188,8 @@ of Gaussian Mixture Models for conversion.
 
 \clearpage
 \cleardoublepage
-\pagenumbering{arabic} \setcounter{page}{1}
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \chapter{Introduction}
 
@@ -210,12 +214,27 @@ to the same extent. One such example that could benefit from modern
 innovations is education. Although there have been small trends here and
 there to create applications for educational use such as Duolingo for
 language learning{[}EXAMPLES?{]}, in general it seems that education has
-not evolved at the same rate as tech. In particular, pronunciation has
-been a large standing challenge in language learning due to its complex
-nature. Unlike grammar and vocabulary pronunciation can be challenging
-to both learn and teach due to the lack of clarity on how to teach it.
+not evolved at the same rate as technology. In particular, pronunciation
+has been a large standing challenge in language learning due to its
+complex nature. Unlike grammar and vocabulary, pronunciation can be
+challenging to both learn and teach due to the lack of clarity on how to
+teach it. Like grammar and vocabulary, pronunciation also involves a
+number of nuanced characteristics, including stress, rhythm, vowels, and
+consonants.
 
-\section{Research Questions}\label{research-questions}
+The variation in these features contribute to what many known as
+\emph{accent}, or variations in pronunciation across speakers based on
+location, ethnicities, social classes, native languages, etc. Accents
+can be considered to be a part of dialects, where users of the same
+language may have variations beyond pronunciation, such as usage in
+vocabulary or grammar. The line may often be blurred in everyday
+discussions and even in academic analyses as accent and dialect (as well
+as language) could be considered to be on a continuum, but for the sake
+of simplicity, I consider \emph{accent} to be variations in
+pronunciation in this work.
+
+\hypertarget{research-questions}{%
+\section{Research Questions}\label{research-questions}}
 
 In this thesis, I focus on investigating the following questions:
 
@@ -229,30 +248,51 @@ In this thesis, I focus on investigating the following questions:
   accent and produce the most natural sounding audio?
 \end{itemize}
 
-\section{Thesis Overview}\label{thesis-overview}
+\hypertarget{thesis-overview}{%
+\section{Thesis Overview}\label{thesis-overview}}
 
 The overview of the thesis is as follows:
 
-In Chapter 2, I present the motivation for creating an accent converison
-system by discussing previous findings in second language acquisition
-research especially in relation to speech.
+In \textbf{Chapter 2}, I give a proper definition of voice conversion
+and accent conversion, and a high level overview of some technical
+details needed to better understand the current work.
+
+In \textbf{Chapter 3}, I present the motivation for creating an accent
+converison system by discussing previous findings in second language
+acquisition research especially in relation to speech. I then cover
+previous work in voice and accent conversion to frame the advances and
+shortcomings of previously developed systems.
+
+In \textbf{Chapter 4}, the design and methodology of the experiments are
+presented alongside the appropriate tools utilized to conduct each one.
+
+In \textbf{Chapter 5}, the results of the experiments previously
+described are presented along with some short discussion and conclusions
+drawn from the results.
+
+In \textbf{Chapter 6}, the thesis is concluded with a reflection on the
+work presented along with some appropriate suggestions for future work.
 \cleardoublepage
 
 \chapter{Background}
 
 Before delving into previous literature and their relevance to this work
-and the field of NLP/language learning as a whole, I detail voice
-conversion/accent conversion and common speech technology concepts used
-in these systems in order to make the current work more accessible to
-those unfamiliar with the area.
+and the fields of NLP and language learning as a whole, I detail both
+voice conversion and accent conversion in order to help better
+distinguish them. I also go over some common speech technology concepts
+typically used in these systems at a high level in order to make the
+current work more accessible to those unfamiliar with the area. Further
+reference is also provided for those interested in the technical aspects
+and formalisms.
 
-\section{Voice conversion}\label{voice-conversion}
+\hypertarget{voice-conversion}{%
+\section{Voice conversion}\label{voice-conversion}}
 
 To properly frame voice conversion, we take a look at
 \textcite{mohammadi2017} who present a recent overview of the subfield.
 Following a definition setforth by the authors, voice conversion refers
-to the transformation of a speech signal of a \emph{target speaker} to
-make it sound similar to a \emph{source speaker} in any chosen fashion
+to the transformation of a speech signal of a \emph{source speaker} to
+make it sound similar to a \emph{target speaker} in any chosen fashion
 with the utterance still being intact. Some of these changes can include
 changes in emotion, accent, or phonation (whispered/murmured speech).
 there have been a number of proposed uses for VC, including the
@@ -264,23 +304,21 @@ Voice conversion often involves a large number of processes, one of
 which includes deciding the appropriate type of data. To start, one must
 decide whether to have parallel or non-parallel speech data. Parallel
 speech data refers to speech data that has source and reference speakers
-that say the same utterance, so only the speaker information is
+that say the same utterance, so only the speaker-specific information is
 different, while non-parallel data would indicate datasets where the
 utterances are not the same, and thus entail further processes to create
-a target waveform. Even though parallel corpora is more desirable as it
-reduces the footprint necessary for conversion, parallel corpora is
-often curated for specific purposes and is not available in most cases.
+a target waveform. Even though parallel corpora are more desirable as it
+reduces the footprint necessary for conversion, parallel corpora are
+often curated for specific purposes and are not available in most cases.
 
 Because of its simplicity, in some cases, researchers have tested making
 a psuedo-parallel corpus using acoustic clustering when working with
-non-parallel data \parencite{lorenzo-trueba2018}. {[}Should I cite the
-original paper here instead if I'm not going into detail? sundermann
-2018{]}
+non-parallel data \parencite{lorenzo-trueba2018, sundermann2006}
 
 Other aspects that need to be considered as discussed by
 \textcite{mohammadi2017} include whether the data is
 \emph{text-dependent} or \emph{text-independent}. Text-dependent corpora
-indicates that the data has word or phonetic transcription, which can
+indicate that the data has word or phonetic transcription, which can
 ease the alignment process during training, while systems using
 text-independent data would need to find similar speech segments, using
 algorithms such as clustering before training. Finally, one minor aspect
@@ -324,7 +362,8 @@ be seen in \autoref{fig:vc-flowchart}, courtesy of
 \label{fig:vc-flowchart}
 \end{figure}
 
-\section{Accent conversion}\label{accent-conversion}
+\hypertarget{accent-conversion}{%
+\section{Accent conversion}\label{accent-conversion}}
 
 Like voice conversion, accent conversion is dedicated to convert the
 speech of a \emph{target speaker} into sounding more like a \emph{source
@@ -339,13 +378,14 @@ means that with native and non-native speech, voice conversion would
 retain the voice quality and accent of the target speaker
 \parencite{aryal2014}.
 
-\section{Features}\label{features}
+\hypertarget{technical-background}{%
+\section{Technical Background}\label{technical-background}}
 
-\subsection{Mel-frequency cepstrum coefficient}
+\subsection{Mel-frequency cepstrum coefficients}
 
-Following \textcite{jurafsky} (NOT REAL CITATION FIX IT), mel-frequency
-cepstrum coefficients (MFCCs) allow us to create vectorized
-representation of the acoustic information.
+Following \textcite{jurafsky2009}, mel-frequency cepstrum coefficients
+(MFCCs) allow us to create vectorized representation of the acoustic
+information.
 
 This is done by going over the speech signal using \emph{windows}, where
 each window is assumed to contain a non-changing part of the signal. In
@@ -362,33 +402,42 @@ From here the frequencies outputted by the Discrete Fourier Transform
 are converted onto the \emph{mel} scale, which is where the \emph{mel}
 in Mel-frequency comes from. In short, the mel scale is used to
 represent human hearing, which is more sensitive to lower pitch sounds
-(under 1000hz) as compared to higher pitch sounds.
-
-Afterwards, the \emph{cepstrum} is calculated in order to separate
-source information from filter information. From a high level, the
-source-filter theory says that all sounds come from the glottis (the
-area around our throat) and below, which contains information common to
-all speech sounds, such as the fundamental frequency (or pitch) of
-someone's voice, as well as glottal pulse information. This is compared
-to the filter, which says that adjusting the vocal tract (e.g.~moving
-the tongue and other articulators) define each individual sounds. By
-retaining just the filter information, we can model an individual phone.
+(under 1000hz) as compared to higher pitch sounds. Afterwards, the
+\emph{cepstrum} is calculated in order to separate source information
+from filter information. From a high level, the source-filter theory
+says that all sounds come from the glottis (the area around our throat)
+and below, which contains information common to all speech sounds, such
+as the fundamental frequency (or pitch) of someone's voice, as well as
+glottal pulse information. This is compared to the filter, which says
+that adjusting the vocal tract (e.g.~moving the tongue and other
+articulators) define each individual sounds. By retaining just the
+filter information, we can model an individual phone.
 
 A visual representation of the whole MFCC extraction process can be seen
-in the following figure, taken from \textcite{jurafsky}.
+in \autoref{fig:vc-flowchart}, taken from \textcite{jurafsky2009}.
 
-Describe: * MFCCs * GMMs * i-vectors
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.22]{img/mfcc-extraction.png}
+\caption{The extraction of sequence 39-dimensional MFCC vectors fro a waveform.}
+\label{fig:vc-flowchart}
+\end{figure}
+
+\subsection{Gaussian mixture models}
+
+\subsection{I-vectors}
 \chapter{Literature Review}
 
-In this section, I begin by providing a brief overview of second
-language acquisition and education in order to motivate the usage of
-technology in language learning. I then examine some previous research
-in computer assisted pronunciation (CAPT) systems in order to motivate
-discussion about voice conversion and accent conversion, where I detail
-important pivotal work done in the area.
+This section provides a brief overview of second language acquisition
+and education in order to motivate the usage of technology in language
+learning. I then examine some previous research in computer assisted
+pronunciation (CAPT) systems in order to motivate discussion about voice
+conversion and accent conversion, where I detail important pivotal work
+done in the area.
 
+\hypertarget{theoretical-and-educational-motivations}{%
 \section{Theoretical and educational
-motivations}\label{theoretical-and-educational-motivations}
+motivations}\label{theoretical-and-educational-motivations}}
 
 \label{sec:theo-edu} Linguists have long debated over the possibility of
 whether second language (L2) learners (e.g.~adult learners) could ever
@@ -457,8 +506,9 @@ This points to the potential solution of employing a technology-based
 system to improve pronunciation as learners could individually address
 their needs \textit{outside} of the classroom.
 
+\hypertarget{computer-assisted-pronunciation-training-systems}{%
 \section{Computer-assisted pronunciation training
-systems}\label{computer-assisted-pronunciation-training-systems}
+systems}\label{computer-assisted-pronunciation-training-systems}}
 
 \label{sec:capt} With the improvements of technology and speech
 processing, researchers have attempted to make a number of
@@ -503,11 +553,11 @@ a successful CAPT system.
 
 In another article by \textcite{eskenazi2009}, we are given a brief
 review of technologies in CAPT systems, this time more focused from a
-technical perspective. In particular, she gives attention to the
+technical perspective. In particular, the author gives attention to the
 different CAPT system types and provides information on prosody
 detection and complete tutoring systems.
 
-She first explains that CAPT systems can be generally split into two
+The article explains that CAPT systems can be generally split into two
 main types: individual error detection and pronunciation assessment. As
 indicated, individual error detection systems are more focused on one
 particular aspect of the user's speech, such as the phones or pitch,
@@ -608,7 +658,8 @@ also However, because the study was limited to individual words and only
 six pairs of vowels, further experimentation needs to be conducted in
 order to fully support their claim.
 
-\section{Voice conversion}\label{voice-conversion}
+\hypertarget{voice-conversion}{%
+\section{Voice conversion}\label{voice-conversion}}
 
 \subsubsection*{Previous works}
 
@@ -618,8 +669,13 @@ recently from other areas of speech technology is the usage of
 \emph{i-vectors}. I-vectors are akin to word embeddings in text-based
 natural language processing tasks in the sense that i-vectors
 encapsulate any type of desired speech information in a vectorized
-fashion. In the instance of voice conversion, i-vectors are made of
-speaker super-vectors trained on GMMs and low dimensional features that
+fashion. I-vectors have proven to be successful in a number of tasks,
+such as speaker verification, language identification, and native accent
+identification. Of particular interest is \textcite{demarco2013}, who
+shows that
+
+In the instance of voice conversion, i-vectors are made of speaker
+super-vectors trained on GMMs and low dimensional features that
 represent an individual speaker's features \parencite{wu2016}. This is
 extracted per utterance and then averaged to form an i-vector that
 represents an individual speaker. In this way, a source speaker's
@@ -675,13 +731,13 @@ iteration of the challenge \textcite{lorenzo-trueba2018}, the organizers
 proposed both a parallel and non-parallel version of the task, both of
 which were evaluated on natural and similarity using crowdsourcing.
 
-The type of systems submitted to this year's version of the task
-displays the current state of voice conversion and perhaps machine
-learning research in general as this year saw a huge increase in the
-number of systems using neural networks. However, it does not go without
-saying that there were indeed systems that used more traditional
-statistical methods, such as Gaussi an Mixture Models (GMM) and one of
-its variations, differential GMM (DIFFGMM).
+The type of systems submitted to the 2018 edition of the task displays
+the current state of voice conversion and perhaps machine learning
+research in general as this year saw a huge increase in the number of
+systems using neural networks. However, it does not go without saying
+that there were indeed systems that used more traditional statistical
+methods, such as Gaussi an Mixture Models (GMM) and one of its
+variations, differential GMM (DIFFGMM).
 
 In order to evaluate the systems, a group of roughly 300 listeners were
 gathered to carry out a perceptual evaluation. The systems were
@@ -743,7 +799,8 @@ for. Thus, it may be a long while before the general public has the
 ability to replicate such systems; however it is extremely exciting to
 know that there is the possibility.
 
-\section{Accent conversion}\label{accent-conversion}
+\hypertarget{accent-conversion}{%
+\section{Accent conversion}\label{accent-conversion}}
 
 Due to the specialized nature of accent conversion as compared to voice
 conversion, there are fewer articles and systems available for
@@ -854,26 +911,53 @@ In this chapter, I introduce the dataset and tools utilized in the
 experiments, and detail the procedures carried out to conduct the accent
 conversion process.
 
-\section{Data}\label{data}
+\hypertarget{data}{%
+\section{Data}\label{data}}
 
-The main dataset utilized in the following experiments is the ABI-1
-corpus.
+The main dataset utilized in the following experiments is the {[}put
+corpus here{]}.
 
-\section{\texorpdfstring{Experiment 1: GMM-based accent conversion-- a
-reproduction of
-\textcite{aryal2014}}{Experiment 1: GMM-based accent conversion-- a reproduction of }}\label{experiment-1-gmm-based-accent-conversion-a-reproduction-of}
+\hypertarget{experiment-1-gmm-based-accent-conversion}{%
+\section{Experiment 1: GMM-based accent
+conversion}\label{experiment-1-gmm-based-accent-conversion}}
 
 This experiment a) is to understand more traditional mapping methods
 used in voice/accent conversion and b) serves as a baseline to be
 compared to other innovative methods (e.g Experiment 2).
 
+The methodology for this experiment stems from \textcite{aryal2014}, one
+of the earlier works done on accent conversion.
+
+\hypertarget{tools}{%
+\subsection{Tools}\label{tools}}
+
+In order to do GMM-based accent conversion, I utilize the
+\texttt{nnmnwkii}\footnote{Found at: https://github.com/r9y9/nnmnkwii}
+Python package which provides fast and easy functions to train voice
+conversion systems. Alongside this package, I also utilize a number of
+other packages that \texttt{nnmnkwii} is dependent on, including
+\texttt{pysptk}, a Python wrapper for the Speech Processing Toolkit,
+\texttt{pyworld}, a Python wrapper for WORLD, a well-known tool for
+high-quality speech analysis and acoustic feature extraction,
+\texttt{librosa}, another package for audio analysis, and the common
+\texttt{scikit-learn} machine learning package for GMM training.
+
+\hypertarget{experiment-2-i-vector-based-accent-conversion}{%
 \section{Experiment 2: I-vector based accent
-conversion}\label{experiment-2-i-vector-based-accent-conversion}
+conversion}\label{experiment-2-i-vector-based-accent-conversion}}
 
 This experiment is motivated by the works presented in \textcite{wu2016}
 and \textcite{kinnunen2017}. Due to their flexible nature, i-vectors are
 an appropriate method to capture the representation of an accent in a
-compact way
+compact way.
+
+\hypertarget{tools-1}{%
+\subsection{Tools}\label{tools-1}}
+
+In order to do the i-vector based accent conversion, I first utilized
+the \texttt{SIDEKIT} Python toolkit to extract the MFCCs, create a GMM
+(also known as a universal background model) and then the i-vectors to
+represent each accent.
 \cleardoublepage
 \chapter{Experimental results}
 

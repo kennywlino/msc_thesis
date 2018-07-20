@@ -27,10 +27,13 @@
            given={Sandesh},
            giveni={S\bibinitperiod}}}%
         {{uniquename=0,hash=0e7c2c39d97457715a7465a75cb42fca}{%
-           family={Gutierrez-Osuna},
-           familyi={G\bibinithyphendelim O\bibinitperiod},
+           family={{Gutierrez-Osuna}},
+           familyi={G\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {IEEE}%
@@ -42,20 +45,14 @@
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{extrayear}{1}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Accent conversion (AC) seeks to transform second-language (L2) utterances to appear as if produced with a native (L1) accent. In the acoustic domain, AC is difficult due to the complex interaction between linguistic content and voice quality. Alternatively, AC can be performed in the articulatory domain by building a mapping from L2 articulators to L2 acoustics, and then driving the model with L1 articulators. However, collecting articulatory data for each L2 learner is impractical. Here we propose an approach that avoids this expensive step. Our method builds a cross-speaker forward mapping (CSFM) to generate L2 acoustic observations directly from L1 articulatory trajectories. We evaluated the CSFM against a baseline articulatory synthesizer trained with L2 articulators. Subjective listening tests show that both methods perform comparably in terms of accent reduction and ability to preserve the voice quality of the L2 speaker, with only a small impact in acoustic quality.}
       \field{isbn}{978-1-4799-2893-4}
-      \field{langid}{english}
       \field{month}{5}
       \field{title}{Accent Conversion through Cross-Speaker Articulatory Synthesis}
-      \field{urlday}{11}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{year}{2014}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{7694\bibrangedash 7698}
       \range{pages}{5}
       \verb{doi}
@@ -63,9 +60,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/TDJ33NSU/Aryal and Gutierrez-Osuna - 2014 - Accent conversion through cross-speaker articulato.pdf
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/6855097/
       \endverb
     \endentry
     \entry{aryal2014}{inproceedings}{}
@@ -76,10 +70,13 @@
            given={Sandesh},
            giveni={S\bibinitperiod}}}%
         {{uniquename=0,hash=0e7c2c39d97457715a7465a75cb42fca}{%
-           family={Gutierrez-Osuna},
-           familyi={G\bibinithyphendelim O\bibinitperiod},
+           family={{Gutierrez-Osuna}},
+           familyi={G\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {IEEE}%
@@ -91,20 +88,14 @@
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{extrayear}{2}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Voice-conversion (VC) techniques aim to transform utterances from a source speaker to sound as if they had been produced by a target speaker. This includes not only organic properties (i.e., voice quality) but also linguistic cues (i.e., regional accents) of the target speaker. For this reason, VC is generally ill-suited for accent-conversion (AC) purposes, where the goal is to capture the voice quality of the target speaker but the regional accent of the source speaker. In this paper, we propose a modification of the conventional training process for VC that allows it to perform as an AC transform. The approach consists of pairing source and target vectors based not on their ordering within a parallel corpus, as is commonly done in VC, but based on their linguistic similarity. We validate the AC approach on a corpus containing native-accented and Spanish-accented utterances, and compare it against conventional VC through a series of perceptual listening tests. We also analyze the extent to which phonological differences between the two languages (Spanish and American English) help predict the relative performance of the two methods.}
       \field{isbn}{978-1-4799-2893-4}
-      \field{langid}{english}
       \field{month}{5}
       \field{title}{Can Voice Conversion Be Used to Reduce Non-Native Accents?}
-      \field{urlday}{7}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{year}{2014}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{7879\bibrangedash 7883}
       \range{pages}{5}
       \verb{doi}
@@ -112,9 +103,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/LZS5YPC9/Aryal and Gutierrez-Osuna - 2014 - Can voice conversion be used to reduce non-native .pdf
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/6855134/
       \endverb
     \endentry
     \entry{aryal2015}{article}{}
@@ -125,10 +113,13 @@
            given={Sandesh},
            giveni={S\bibinitperiod}}}%
         {{uniquename=0,hash=0e7c2c39d97457715a7465a75cb42fca}{%
-           family={Gutierrez-Osuna},
-           familyi={G\bibinithyphendelim O\bibinitperiod},
+           family={{Gutierrez-Osuna}},
+           familyi={G\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \strng{namehash}{10cc30d6657266839291401f22c3f9cb}
       \strng{fullhash}{10cc30d6657266839291401f22c3f9cb}
@@ -136,14 +127,12 @@
       \strng{authorfullhash}{10cc30d6657266839291401f22c3f9cb}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We present an articulatory-based method for real-time accent conversion using deep neural networks (DNN). The approach consists of two steps. First, we train a DNN articulatory synthesizer for the non-native speaker that estimates acoustics from contextualized articulatory gestures. Then we drive the DNN with articulatory gestures from a reference native speaker –mapped to the nonnative articulatory space via a Procrustes transform. We evaluate the accent-conversion performance of the DNN through a series of listening tests of intelligibility, voice identity and nonnative accentedness. Compared to a baseline method based on Gaussian mixture models, the DNN accent conversions were found to be 31\% more intelligible, and were perceived more native-like in 68\% of the cases. The DNN also succeeded in preserving the voice identity of the nonnative speaker.}
-      \field{langid}{english}
+      \field{abstract}{We present an articulatory-based method for real-time accent conversion using deep neural networks (DNN). The approach consists of two steps. First, we train a DNN articulatory synthesizer for the non-native speaker that estimates acoustics from contextualized articulatory gestures. Then we drive the DNN with articulatory gestures from a reference native speaker –{}mapped to the nonnative articulatory space via a Procrustes transform. We evaluate the accent-conversion performance of the DNN through a series of listening tests of intelligibility, voice identity and nonnative accentedness. Compared to a baseline method based on Gaussian mixture models, the DNN accent conversions were found to be 31\% more intelligible, and were perceived more native-like in 68\% of the cases. The DNN also succeeded in preserving the voice identity of the nonnative speaker.}
       \field{title}{Articulatory-{{Based Conversion}} of {{Foreign Accents}} with {{Deep Neural Networks}}}
       \field{year}{2015}
-      \field{dateera}{ce}
       \field{pages}{5}
       \range{pages}{1}
       \verb{file}
@@ -174,13 +163,12 @@
       \strng{authorfullhash}{71a80081aca4712a703da46185ca4a2a}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Can {{Late Starters Attain}} a {{Native Accent}} in a {{Foreign Language}}? {{A Test}} of the {{Critical Period Hypothesis}}}
       \field{year}{1995}
-      \field{dateera}{ce}
     \endentry
     \entry{chun2008}{incollection}{}
       \name{author}{3}{}{%
@@ -206,13 +194,12 @@
       \strng{authorfullhash}{b4aaad0c81536e158d020e649b881b79}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Technologies for Prosody in Context: {{Past}} and Future of {{L2}} Research and Practice}
       \field{year}{2008}
-      \field{dateera}{ce}
       \field{pages}{323\bibrangedash 346}
       \range{pages}{24}
     \endentry
@@ -240,19 +227,53 @@
       \strng{authorfullhash}{ce3463643710fa89ceaed847a5b8be6b}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bringing Pronunciation Instruction Back into the Classroom: An {{ESL}} Teachers' Pronunciation "Toolbox"}
       \field{year}{2012}
-      \field{dateera}{ce}
       \field{pages}{18}
       \range{pages}{1}
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/DarcyI/2012/Darcy_2012_BRINGING PRONUNCIATION INSTRUCTION BACK INTO THE CLASSROOM.pdf
       \endverb
       \keyw{read}
+    \endentry
+    \entry{demarco2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=49c06516c6bdd35379802d5d8f9478f6}{%
+           family={DeMarco},
+           familyi={D\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=dc498e9cd303667f04a594180d3486ce}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b44e811bc272f71c1d0f5ef8e89eec22}
+      \strng{fullhash}{b44e811bc272f71c1d0f5ef8e89eec22}
+      \strng{authornamehash}{b44e811bc272f71c1d0f5ef8e89eec22}
+      \strng{authorfullhash}{b44e811bc272f71c1d0f5ef8e89eec22}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a comprehensive analysis of the use of I-vector based classifiers for the classification of unlabelled acoustic data as native British accents. We demonstrate the different behaviours of various popular dimensionality reduction techniques that have been previously used in problems such as speaker and language classification. Our results show that a fusion of I-vector based systems gives state-of-the-art performance for unlabelled classification of British accent speech data, reaching $\sim$81\% accuracy.}
+      \field{title}{Native {{Accent Classification}} via {{I}}-{{Vectors}} and {{Speaker Compensation Fusion}}}
+      \field{year}{2013}
+      \field{pages}{5}
+      \range{pages}{1}
+      \verb{file}
+      \verb /Users/kennylino/Zotero/storage/MRTN93E5/DeMarco and Cox - Native Accent Classification via I-Vectors and Spe.pdf
+      \endverb
     \endentry
     \entry{eskenazi2009}{article}{}
       \name{author}{1}{}{%
@@ -262,29 +283,26 @@
            given={Maxine},
            giveni={M\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{331a3b7829f967e10a2c7f54cc1beb31}
       \strng{fullhash}{331a3b7829f967e10a2c7f54cc1beb31}
       \strng{authornamehash}{331a3b7829f967e10a2c7f54cc1beb31}
       \strng{authorfullhash}{331a3b7829f967e10a2c7f54cc1beb31}
       \field{sortinit}{E}
       \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper reviews research in spoken language technology for education and more speciﬁcally for language learning. It traces the history of the domain and then groups main issues in the interaction with the student. It addresses the modalities of interaction and their implementation issues and algorithms. Then it discusses one user population – children – and an application for them. Finally it has a discussion of overall systems. It can be used as an introduction to the ﬁeld and a source of reference materials.}
+      \field{abstract}{This paper reviews research in spoken language technology for education and more specifically for language learning. It traces the history of the domain and then groups main issues in the interaction with the student. It addresses the modalities of interaction and their implementation issues and algorithms. Then it discusses one user population –{} children –{} and an application for them. Finally it has a discussion of overall systems. It can be used as an introduction to the field and a source of reference materials.}
       \field{issn}{01676393}
       \field{journaltitle}{Speech Communication}
-      \field{langid}{english}
       \field{month}{10}
       \field{number}{10}
       \field{title}{An Overview of Spoken Language Technology for Education}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{volume}{51}
       \field{year}{2009}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{832\bibrangedash 844}
       \range{pages}{13}
       \verb{doi}
@@ -292,9 +310,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/EskenaziM/2009/Eskenazi_2009_An overview of spoken language technology for education.pdf
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S0167639309000673
       \endverb
       \keyw{read}
     \endentry
@@ -317,13 +332,12 @@
       \strng{authorfullhash}{53f2d36ac52a29e39e601ee47cb64220}
       \field{sortinit}{E}
       \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this article we describe the basis of the Fluency project for foreign language pronunciation training using automatic speech recognition. We describe the theoretical base, the interactive duration correction module, and our work toward adaptation to the way in which the user learns best. We show results in preliminary tests of the latter, and discuss future directions of the project.}
       \field{title}{The {{Fluency Pronunciation Trainer}}}
       \field{year}{1998}
-      \field{dateera}{ce}
       \field{pages}{6}
       \range{pages}{1}
       \verb{file}
@@ -349,8 +363,8 @@
            given={Isao},
            giveni={I\bibinitperiod}}}%
         {{uniquename=0,hash=487dee4d02326569c9a3d5dfb62c6c98}{%
-           family={Lorenzo-Trueba},
-           familyi={L\bibinithyphendelim T\bibinitperiod},
+           family={{Lorenzo-Trueba}},
+           familyi={L\bibinitperiod},
            given={Jaime},
            giveni={J\bibinitperiod}}}%
       }
@@ -360,30 +374,22 @@
       \strng{authorfullhash}{ca02f26bd0ae8e260afb9245aa10ddca}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although voice conversion (VC) algorithms have achieved remarkable success along with the development of machine learning, superior performance is still difficult to achieve when using nonparallel data. In this paper, we propose using a cycle-consistent adversarial network (CycleGAN) for nonparallel data-based VC training. A CycleGAN is a generative adversarial network (GAN) originally developed for unpaired image-to-image translation. A subjective evaluation of inter-gender conversion demonstrated that the proposed method significantly outperformed a method based on the Merlin open source neural network speech synthesis system (a parallel VC system adapted for our setup) and a GAN-based parallel VC system. This is the first research to show that the performance of a nonparallel VC method can exceed that of state-of-the-art parallel VC methods.}
-      \field{day}{2}
       \field{eprintclass}{cs, eess, stat}
       \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1804.00425 [cs, eess, stat]}
       \field{month}{4}
       \field{title}{High-Quality Nonparallel Voice Conversion Based on Cycle-Consistent Adversarial Network}
-      \field{urlday}{24}
-      \field{urlmonth}{5}
-      \field{urlyear}{2018}
       \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{eprint}
       \verb 1804.00425
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/FangF/2018/Fang_2018_High-quality nonparallel voice conversion based on cycle-consistent adversarial.pdf;/Users/kennylino/Zotero/storage/Z26IC6FW/1804.html
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1804.00425
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing,Statistics - Machine Learning}
     \endentry
@@ -400,10 +406,13 @@
            given={Heather},
            giveni={H\bibinitperiod}}}%
         {{uniquename=0,hash=0e7c2c39d97457715a7465a75cb42fca}{%
-           family={Gutierrez-Osuna},
-           familyi={G\bibinithyphendelim O\bibinitperiod},
+           family={{Gutierrez-Osuna}},
+           familyi={G\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \strng{namehash}{85b916e445ce3c36bd9732f925637571}
       \strng{fullhash}{48572287dc3f1a3a8dfcf1b7a9a84975}
@@ -411,24 +420,18 @@
       \strng{authorfullhash}{48572287dc3f1a3a8dfcf1b7a9a84975}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Learners of a second language practice their pronunciation by listening to and imitating utterances from native speakers. Recent research has shown that choosing a well-matched native speaker to imitate can have a positive impact on pronunciation training. Here we propose a voicetransformation technique that can be used to generate the (arguably) ideal voice to imitate: the own voice of the learner with a native accent. Our work extends previous research, which suggests that providing learners with prosodically corrected versions of their utterances can be a suitable form of feedback in computer assisted pronunciation training. Our technique provides a conversion of both prosodic and segmental characteristics by means of a pitch-synchronous decomposition of speech into glottal excitation and spectral envelope. We apply the technique to a corpus containing parallel recordings of foreign-accented and native-accented utterances, and validate the resulting accent conversions through a series of perceptual experiments. Our results indicate that the technique can reduce foreign accentedness without significantly altering the voice quality properties of the foreign speaker. Finally, we propose a pedagogical strategy for integrating accent conversion as a form of behavioral shaping in computer assisted pronunciation training.}
       \field{issn}{01676393}
       \field{journaltitle}{Speech Communication}
-      \field{langid}{english}
       \field{month}{10}
       \field{number}{10}
       \field{title}{Foreign Accent Conversion in Computer Assisted Pronunciation Training}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{volume}{51}
       \field{year}{2009}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{920\bibrangedash 932}
       \range{pages}{13}
       \verb{doi}
@@ -436,9 +439,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/FelpsD/2009/Felps_2009_Foreign accent conversion in computer assisted pronunciation training.pdf
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S0167639308001763
       \endverb
     \endentry
     \entry{hardison2005}{article}{}
@@ -449,29 +449,66 @@
            given={Debra\bibnamedelima M.},
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{1f555ad5b507daa2cc2bc40a0adfddf5}
       \strng{fullhash}{1f555ad5b507daa2cc2bc40a0adfddf5}
       \strng{authornamehash}{1f555ad5b507daa2cc2bc40a0adfddf5}
       \strng{authorfullhash}{1f555ad5b507daa2cc2bc40a0adfddf5}
       \field{sortinit}{H}
       \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Two types of contextualized input in prosody training were investigated for 28 advanced L2 speakers of English (L1 Chinese). Their oral presentations provided training materials. Native-speakers (NSs) of English provided global prosody ratings, and participants completed questionnaires on perceived training effectiveness. Two groups received training input using Anvil, a web-based annotation tool integrating the video of a speech event with visual displays of the pitch contour, and practiced with Real-Time Pitch (RTP) in Computerized Speech Lab including feedback from a NS. Two groups used only RTP to view their pitch contours and practiced with the same feedback. Within these pairs, one group received discourse-level input and the other individual sentences. Each group served as its own control in a time-series design. All had comparable levels of performance prior to training. Results indicated that although all groups improved as a result of training, discourse-level input produced better transfer to novel natural discourse. The presence of video was more helpful with discourselevel input than with individual sentences. Speech samples collected 1 week after training revealed sustained improvement. Questionnaire results support the use of computer-based tools and authentic speech samples. Findings strongly suggest that meaningful contextualized input is valuable in prosody training when the measurement is at the level of extended connected speech typical of natural discourse.}
       \field{journaltitle}{CALICO Journal}
-      \field{langid}{english}
       \field{number}{2}
       \field{title}{Contextualized {{Computer}}-Based {{L2 Prosody Training}}: {{Evaluating}} the {{Effects}} of {{Discourse Context}} and {{Video Input}}}
       \field{volume}{22}
       \field{year}{2005}
-      \field{dateera}{ce}
       \field{pages}{16}
       \range{pages}{1}
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/DEL2DFGZ/HARDISON - Contextualized Computer-based L2 Prosody Training.pdf
       \endverb
+    \endentry
+    \entry{jurafsky2009}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3147296c99a3f829087becd1a4eaec08}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, N.J.}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{3147296c99a3f829087becd1a4eaec08}
+      \strng{fullhash}{3147296c99a3f829087becd1a4eaec08}
+      \strng{authornamehash}{3147296c99a3f829087becd1a4eaec08}
+      \strng{authorfullhash}{3147296c99a3f829087becd1a4eaec08}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction -- Regular Expressions and Automata -- Words \& Transducers -- N-grams -- Part-of-Speech Tagging -- Hidden Markov and Maximum Entropy Models -- Phonetics -- Speech Synthesis -- Automatic Speech Recognition -- Speech Recognition: Advanced Topics -- Computational Phonology -- Formal Grammars of English -- Syntactic Parsing -- Statistical Parsing -- Features and Unification -- Language and Complexity -- The Representation of Meaning -- Computational Semantics -- Lexical Semantics -- Computational Lexical Semantics -- Computational Discourse -- Information Extraction -- Question Answering and Summarization -- Dialogue and Conversational Agents -- Machine Translation., An explosion of Web-based language techniques, merging of distinct fields, availability of phone-based dialogue systems, and much more make this an exciting time in speech and language processing. The first of its kind to thoroughly cover language technology - at all levels and with all modern technologies - this book takes an empirical approach to the subject, based on applying statistical and other machine-learning algorithms to large corporations. Builds each chapter around one or more worked examples demonstrating the main idea of the chapter, usingthe examples to illustrate the relative strengths and weaknesses of various approaches. Adds coverage of statistical sequence labeling, information extraction, question answering and summarization, advanced topics in speech recognition, speech synthesis. Revises coverage of language modeling, formal grammars, statistical parsing, machine translation, and dialog processing. A useful reference for professionals in any of the areas of speech and language processing. -- Book Description from Website., Includes bibliographical references (pages 909-958) and indexes.}
+      \field{edition}{2nd ed.}
+      \field{isbn}{978-0-13-187321-6}
+      \field{series}{Prentice Hall series in artificial intelligence}
+      \field{shorttitle}{Speech and Language Processing}
+      \field{title}{Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition}
+      \field{year}{2009}
+      \keyw{Automatic speech recognition.,Computational linguistics.,Linguistics.,Natural Language Processing.,Speech Recognition Software.}
     \endentry
     \entry{kinnunen2017}{inproceedings}{}
       \name{author}{4}{}{%
@@ -496,6 +533,9 @@
            given={Junichi},
            giveni={J\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \list{publisher}{1}{%
         {IEEE}%
       }
@@ -505,22 +545,16 @@
       \strng{authorfullhash}{5e6c5fa5a8abb432d236edc35826c2fe}
       \field{sortinit}{K}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Text-independent speaker veriﬁcation (recognizing speakers regardless of content) and non-parallel voice conversion (transforming voice identities without requiring content-matched training utterances) are related problems. We adopt i-vector method to voice conversion. An i-vector is a ﬁxed-dimensional representation of a speech utterance that enables treating voice conversion in utterance domain, as opposed to frame domain. The high dimensionality (800) and small number of training utterances (24) necessitates using prior information of speakers. We adopt probabilistic linear discriminant analysis (PLDA) for voice conversion. The proposed approach requires neither parallel utterances, transcriptions nor time alignment procedures at any stage.}
+      \field{abstract}{Text-independent speaker verification (recognizing speakers regardless of content) and non-parallel voice conversion (transforming voice identities without requiring content-matched training utterances) are related problems. We adopt i-vector method to voice conversion. An i-vector is a fixed-dimensional representation of a speech utterance that enables treating voice conversion in utterance domain, as opposed to frame domain. The high dimensionality (800) and small number of training utterances (24) necessitates using prior information of speakers. We adopt probabilistic linear discriminant analysis (PLDA) for voice conversion. The proposed approach requires neither parallel utterances, transcriptions nor time alignment procedures at any stage.}
       \field{isbn}{978-1-5090-4117-6}
-      \field{langid}{english}
       \field{month}{3}
       \field{shorttitle}{Non-Parallel Voice Conversion Using i-Vector {{PLDA}}}
       \field{title}{Non-Parallel Voice Conversion Using i-Vector {{PLDA}}: Towards Unifying Speaker Verification and Transformation}
-      \field{urlday}{16}
-      \field{urlmonth}{5}
-      \field{urlyear}{2018}
       \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{5535\bibrangedash 5539}
       \range{pages}{5}
       \verb{doi}
@@ -528,9 +562,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/PJLZMP7A/Kinnunen et al. - 2017 - Non-parallel voice conversion using i-vector PLDA.pdf
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/7953215/
       \endverb
     \endentry
     \entry{lengeris2012}{incollection}{}
@@ -543,8 +574,8 @@
       }
       \name{editor}{1}{}{%
         {{hash=13e4baf8a170582cd487ce4eda945f6a}{%
-           family={Romero-Trillo},
-           familyi={R\bibinithyphendelim T\bibinitperiod},
+           family={{Romero-Trillo}},
+           familyi={R\bibinitperiod},
            given={Jesús},
            giveni={J\bibinitperiod}}}%
       }
@@ -562,7 +593,7 @@
       \strng{editorfullhash}{13e4baf8a170582cd487ce4eda945f6a}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -570,13 +601,8 @@
       \field{isbn}{978-94-007-3882-9 978-94-007-3883-6}
       \field{shorttitle}{Prosody and {{Second Language Teaching}}}
       \field{title}{Prosody and {{Second Language Teaching}}: {{Lessons}} from {{L2 Speech Perception}} and {{Production Research}}}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{volume}{15}
       \field{year}{2012}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{25\bibrangedash 40}
       \range{pages}{16}
       \verb{doi}
@@ -584,9 +610,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/LengerisA/2012/Lengeris_2012_Prosody and Second Language Teaching.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.springerlink.com/index/10.1007/978-94-007-3883-6_3
       \endverb
     \endentry
     \entry{lenneberg1967}{article}{}
@@ -603,24 +626,18 @@
       \strng{authorfullhash}{c7209d93b9b18e82a239339fa8e37848}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The coming of language occurs at about the same age in every healthy child throughout the world, strongly supporting the concept that genetically determined processes of maturation, rather than environmental influences, underlie capacity for speech and verbal understanding. Dr. Lenneberg points out the implications of this concept for the therapeutic and educational approach to children with hearing or speech deficits.}
-      \field{day}{1}
       \field{issn}{2154-8331}
       \field{journaltitle}{Hospital Practice}
       \field{month}{12}
       \field{number}{12}
       \field{title}{The {{Biological Foundations}} of {{Language}}}
-      \field{urlday}{14}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{volume}{2}
       \field{year}{1967}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{59\bibrangedash 67}
       \range{pages}{9}
       \verb{doi}
@@ -629,15 +646,12 @@
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/IFTYRDQN/21548331.1967.html
       \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/21548331.1967.11707799
-      \endverb
     \endentry
     \entry{lorenzo-trueba2018}{article}{}
       \name{author}{7}{}{%
         {{uniquename=0,hash=487dee4d02326569c9a3d5dfb62c6c98}{%
-           family={Lorenzo-Trueba},
-           familyi={L\bibinithyphendelim T\bibinitperiod},
+           family={{Lorenzo-Trueba}},
+           familyi={L\bibinitperiod},
            given={Jaime},
            giveni={J\bibinitperiod}}}%
         {{uniquename=0,hash=64bfb2b1761cc3077e7b25f2eaa562ee}{%
@@ -677,31 +691,23 @@
       \strng{authorfullhash}{ee6706579153e35303d834cc7796cc10}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We present the Voice Conversion Challenge 2018, designed as a follow up to the 2016 edition with the aim of providing a common framework for evaluating and comparing different state-of-the-art voice conversion (VC) systems. The objective of the challenge was to perform speaker conversion (i.e. transform the vocal identity) of a source speaker to a target speaker while maintaining linguistic information. As an update to the previous challenge, we considered both parallel and non-parallel data to form the Hub and Spoke tasks, respectively. A total of 23 teams from around the world submitted their systems, 11 of them additionally participated in the optional Spoke task. A large-scale crowdsourced perceptual evaluation was then carried out to rate the submitted converted speech in terms of naturalness and similarity to the target speaker identity. In this paper, we present a brief summary of the state-of-the-art techniques for VC, followed by a detailed explanation of the challenge tasks and the results that were obtained.}
-      \field{day}{11}
       \field{eprintclass}{cs, eess, stat}
       \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1804.04262 [cs, eess, stat]}
       \field{month}{4}
       \field{shorttitle}{The {{Voice Conversion Challenge}} 2018}
       \field{title}{The {{Voice Conversion Challenge}} 2018: {{Promoting Development}} of {{Parallel}} and {{Nonparallel Methods}}}
-      \field{urlday}{13}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{eprint}
       \verb 1804.04262
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/Lorenzo-TruebaJ/2018/Lorenzo-Trueba_2018_The Voice Conversion Challenge 2018.pdf;/Users/kennylino/Zotero/storage/V4PHRZST/1804.html
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1804.04262
       \endverb
       \keyw{Computer Science - Computation and Language,read,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing,Statistics - Machine Learning}
     \endentry
@@ -718,29 +724,26 @@
            given={Alexander},
            giveni={A\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{4ae0c3fb610309e4814d3df8c53f5e1f}
       \strng{fullhash}{4ae0c3fb610309e4814d3df8c53f5e1f}
       \strng{authornamehash}{4ae0c3fb610309e4814d3df8c53f5e1f}
       \strng{authorfullhash}{4ae0c3fb610309e4814d3df8c53f5e1f}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Voice transformation (VT) aims to change one or more aspects of a speech signal while preserving linguistic information. A subset of VT, Voice conversion (VC) speciﬁcally aims to change a source speaker’s speech in such a way that the generated output is perceived as a sentence uttered by a target speaker. Despite many years of research, VC systems still exhibit deﬁciencies in accurately mimicking a target speaker spectrally and prosodically, and simultaneously maintaining high speech quality. In this work we provide an overview of real-world applications, extensively study existing systems proposed in the literature, and discuss remaining challenges.}
+      \field{abstract}{Voice transformation (VT) aims to change one or more aspects of a speech signal while preserving linguistic information. A subset of VT, Voice conversion (VC) specifically aims to change a source speaker's speech in such a way that the generated output is perceived as a sentence uttered by a target speaker. Despite many years of research, VC systems still exhibit deficiencies in accurately mimicking a target speaker spectrally and prosodically, and simultaneously maintaining high speech quality. In this work we provide an overview of real-world applications, extensively study existing systems proposed in the literature, and discuss remaining challenges.}
       \field{issn}{01676393}
       \field{journaltitle}{Speech Communication}
-      \field{langid}{english}
       \field{month}{4}
       \field{title}{An Overview of Voice Conversion Systems}
-      \field{urlday}{7}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{volume}{88}
       \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{65\bibrangedash 82}
       \range{pages}{18}
       \verb{doi}
@@ -748,9 +751,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Zotero/storage/TXB6AX59/Mohammadi and Kain - 2017 - An overview of voice conversion systems.pdf
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S0167639315300698
       \endverb
       \keyw{read}
     \endentry
@@ -767,27 +767,24 @@
            given={Tracey\bibnamedelima M.},
            giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{0188cf97dc93c04b5b59b2b70dde5d25}
       \strng{fullhash}{0188cf97dc93c04b5b59b2b70dde5d25}
       \strng{authornamehash}{0188cf97dc93c04b5b59b2b70dde5d25}
       \strng{authorfullhash}{0188cf97dc93c04b5b59b2b70dde5d25}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00238333}
       \field{journaltitle}{Language Learning}
-      \field{langid}{english}
       \field{title}{Foreign {{Accent}}, {{Comprehensibility}}, and {{Intelligibility}} in the {{Speech}} of {{Second Language Learners}}}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{volume}{49}
       \field{year}{1999}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{285\bibrangedash 310}
       \range{pages}{26}
       \verb{doi}
@@ -795,9 +792,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/MunroM/1999/Munro_1999_Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second.pdf
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1111/0023-8333.49.s1.8
       \endverb
     \endentry
     \entry{neri2002}{article}{}
@@ -829,24 +823,18 @@
       \strng{authorfullhash}{f8ba0b861c80ac889d58d8f70b9c67a5}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we examine the relationship between pedagogy and technology in Computer Assisted Pronunciation Training (CAPT) courseware. First, we will analyse available literature on second language pronunciation teaching and learning in order to derive some general guidelines for effective training. Second, we will present an appraisal of various CAPT systems with a view to establishing whether they meet pedagogical requirements. In this respect, we will show that many commercial systems tend to prefer technological novelties to the detriment of pedagogical criteria that could beneﬁt the learner more. While examining the limitations of today’s technology, we will consider possible ways to deal with these shortcomings. Finally, we will combine the information thus gathered to suggest some recommendations for future CAPT.}
-      \field{day}{1}
+      \field{abstract}{In this paper, we examine the relationship between pedagogy and technology in Computer Assisted Pronunciation Training (CAPT) courseware. First, we will analyse available literature on second language pronunciation teaching and learning in order to derive some general guidelines for effective training. Second, we will present an appraisal of various CAPT systems with a view to establishing whether they meet pedagogical requirements. In this respect, we will show that many commercial systems tend to prefer technological novelties to the detriment of pedagogical criteria that could benefit the learner more. While examining the limitations of today's technology, we will consider possible ways to deal with these shortcomings. Finally, we will combine the information thus gathered to suggest some recommendations for future CAPT.}
       \field{issn}{0958-8221}
       \field{journaltitle}{Computer Assisted Language Learning}
       \field{month}{12}
       \field{number}{5}
       \field{title}{The {{Pedagogy}}-{{Technology Interface}} in {{Computer Assisted Pronunciation Training}}}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{volume}{15}
       \field{year}{2002}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{441\bibrangedash 467}
       \range{pages}{27}
       \verb{doi}
@@ -854,9 +842,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/NeriA/2002/Neri_2002_The Pedagogy-Technology Interface in Computer Assisted Pronunciation Training.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.tandfonline.com/doi/abs/10.1076/call.15.5.441.13473
       \endverb
       \keyw{read}
     \endentry
@@ -894,7 +879,7 @@
       \strng{authorfullhash}{b4f91ac2524f0675c2930a367a951c98}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -905,13 +890,8 @@
       \field{month}{5}
       \field{number}{9}
       \field{title}{High Quality Voice Conversion Using Prosodic and High-Resolution Spectral Features}
-      \field{urlday}{6}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{volume}{75}
       \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{5265\bibrangedash 5285}
       \range{pages}{21}
       \verb{doi}
@@ -922,9 +902,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/NguyenH/2016/Nguyen_2016_High quality voice conversion using prosodic and high-resolution spectral.pdf;/Users/kennylino/Zotero/storage/E4MU3IYC/1512.html
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1512.01809
       \endverb
       \keyw{Computer Science - Sound}
     \endentry
@@ -942,19 +919,82 @@
       \strng{authorfullhash}{12104acb9b042f58fd3453cd9f4968e2}
       \field{sortinit}{S}
       \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Time to Speak: {{A}} Psycholinguistic Inquiry into the Critical Period for Human Speech}
       \field{year}{1988}
-      \field{dateera}{ce}
+    \endentry
+    \entry{sundermann2006}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=6c63ebde8311c0eb934a2f599b969b25}{%
+           family={Sundermann},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c826ecb402eb73efbd2e6268af786c9d}{%
+           family={Hoge},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=e4d93f0dd3d5e6003b082dfcfa9792dd}{%
+           family={Bonafonte},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=8de3929f7fafa520774ca685982dc8d0}{%
+           family={Ney},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=c837ec589446e13764d2409d597695d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=680d709f1c04d7349dd365ca0f847445}{%
+           family={Narayanan},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{78dd7106b1ebbbbbabf0262cbef94edf}
+      \strng{fullhash}{d0b68bf7bf0df23398a10ab1c7aabf2f}
+      \strng{authornamehash}{78dd7106b1ebbbbbabf0262cbef94edf}
+      \strng{authorfullhash}{d0b68bf7bf0df23398a10ab1c7aabf2f}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{So far, most of the voice conversion training procedures are text-dependent, i.e., they are based on parallel training utterances of source and target speaker. Since several applications (e.g. speech-to-speech translation or dubbing) require textindependent training, over the last two years, training techniques that use non-parallel data were proposed. In this paper, we present a new approach that applies unit selection to find corresponding time frames in source and target speech. By means of a subjective experiment it is shown that this technique achieves the same performance as the conventional text-dependent training.}
+      \field{isbn}{978-1-4244-0469-8}
+      \field{title}{Text-{{Independent Voice Conversion Based}} on {{Unit Selection}}}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{I-81-I-84}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ICASSP.2006.1659962
+      \endverb
+      \verb{file}
+      \verb /Users/kennylino/Zotero/storage/8VK2NEUH/Sundermann et al. - 2006 - Text-Independent Voice Conversion Based on Unit Se.pdf
+      \endverb
+      \warn{\item Range field 'pages' in entry 'sundermann2006' is malformed, falling back to literal}
     \endentry
     \entry{tejedor-garcia2017}{inproceedings}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=1f24e8c34ddb91b608d2344234e80321}{%
-           family={Tejedor-García},
-           familyi={T\bibinithyphendelim G\bibinitperiod},
+           family={{Tejedor-García}},
+           familyi={T\bibinitperiod},
            given={Cristian},
            giveni={C\bibinitperiod}}}%
         {{uniquename=0,hash=19cd636062e55fb4318fc730b6e940da}{%
@@ -963,20 +1003,23 @@
            given={David},
            giveni={D\bibinitperiod}}}%
         {{uniquename=0,hash=91f619bf73a5d99df22243ed73eace69}{%
-           family={González-Ferreras},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
+           family={{González-Ferreras}},
+           familyi={G\bibinitperiod},
            given={César},
            giveni={C\bibinitperiod}}}%
         {{uniquename=0,hash=ef5ff40f8dad7692c89c9a8420b84970}{%
-           family={Cámara-Arenas},
-           familyi={C\bibinithyphendelim A\bibinitperiod},
+           family={{Cámara-Arenas}},
+           familyi={C\bibinitperiod},
            given={Enrique},
            giveni={E\bibinitperiod}}}%
         {{uniquename=0,hash=ad45dccc3f4bfda4846198d93883750d}{%
-           family={Cardeñoso-Payo},
-           familyi={C\bibinithyphendelim P\bibinitperiod},
+           family={{Cardeñoso-Payo}},
+           familyi={C\bibinitperiod},
            given={Valentín},
            giveni={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {ISCA}%
@@ -987,21 +1030,14 @@
       \strng{authorfullhash}{da4e6a2bb4f07e7f51505b8de5aa4ab6}
       \field{sortinit}{T}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Feedback is an important concern in Computer-Assisted Pronunciation Training (CAPT), inasmuch as it bears on a system’s capability to correct users’ input and promote improved L2 pronunciation performance in the target language. In this paper, we test the use of synthetic voice as a corrective feedback resource. A group of students used a CAPT tool for carrying out a battery of minimal-pair discrimination-production tasks; to those who failed in production routines, the system offered the possibility of undergoing extra training by using synthetic voice as a model in a round of exposure exercises. Participants who made use of this resource signiﬁcantly outperformed those who directly repeated the previously failed exercise. Results suggest that the Text-To-Speech systems offered by current operating systems (Android in our case) must be considered a relevant feedback resource in pronunciation training, especially when combined with efﬁcient teaching methods.}
-      \field{day}{25}
-      \field{langid}{english}
+      \field{abstract}{Feedback is an important concern in Computer-Assisted Pronunciation Training (CAPT), inasmuch as it bears on a system's capability to correct users' input and promote improved L2 pronunciation performance in the target language. In this paper, we test the use of synthetic voice as a corrective feedback resource. A group of students used a CAPT tool for carrying out a battery of minimal-pair discrimination-production tasks; to those who failed in production routines, the system offered the possibility of undergoing extra training by using synthetic voice as a model in a round of exposure exercises. Participants who made use of this resource significantly outperformed those who directly repeated the previously failed exercise. Results suggest that the Text-To-Speech systems offered by current operating systems (Android in our case) must be considered a relevant feedback resource in pronunciation training, especially when combined with efficient teaching methods.}
       \field{month}{8}
       \field{title}{Evaluating the {{Efficiency}} of {{Synthetic Voice}} for {{Providing Corrective Feedback}} in a {{Pronunciation Training Tool Based}} on {{Minimal Pairs}}}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
       \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{25\bibrangedash 29}
       \range{pages}{5}
       \verb{doi}
@@ -1009,9 +1045,6 @@
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/Tejedor-GarcíaC/2017/Tejedor-García_2017_Evaluating the Efficiency of Synthetic Voice for Providing Corrective Feedback.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.isca-speech.org/archive/SLaTE_2017/abstracts/SLaTE_2017_paper_24.html
       \endverb
     \endentry
     \entry{wang2018}{article}{}
@@ -1032,8 +1065,8 @@
            given={Yu},
            giveni={Y\bibinitperiod}}}%
         {{uniquename=0,hash=3cc03dddfbb36140d6604ecd3e07c3ed}{%
-           family={Skerry-Ryan},
-           familyi={S\bibinithyphendelim R\bibinitperiod},
+           family={{Skerry-Ryan}},
+           familyi={S\bibinitperiod},
            given={R.\bibnamedelimi J.},
            giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{uniquename=0,hash=88df80421f33af7bf1ba5d0a84245c68}{%
@@ -1073,31 +1106,23 @@
       \strng{authorfullhash}{b2ab462f4d5a6a8d1d174575c135fc45}
       \field{sortinit}{W}
       \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this work, we propose "global style tokens" (GSTs), a bank of embeddings that are jointly trained within Tacotron, a state-of-the-art end-to-end speech synthesis system. The embeddings are trained with no explicit labels, yet learn to model a large range of acoustic expressiveness. GSTs lead to a rich set of significant results. The soft interpretable "labels" they generate can be used to control synthesis in novel ways, such as varying speed and speaking style - independently of the text content. They can also be used for style transfer, replicating the speaking style of a single audio clip across an entire long-form text corpus. When trained on noisy, unlabeled found data, GSTs learn to factorize noise and speaker identity, providing a path towards highly scalable but robust speech synthesis.}
-      \field{day}{23}
       \field{eprintclass}{cs, eess}
       \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1803.09017 [cs, eess]}
       \field{month}{3}
       \field{shorttitle}{Style {{Tokens}}}
       \field{title}{Style {{Tokens}}: {{Unsupervised Style Modeling}}, {{Control}} and {{Transfer}} in {{End}}-to-{{End Speech Synthesis}}}
-      \field{urlday}{3}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
       \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{eprint}
       \verb 1803.09017
       \endverb
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/WangY/2018/Wang_2018_Style Tokens.pdf;/Users/kennylino/Zotero/storage/4ZQQ8KCN/1803.html
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1803.09017
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Learning,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing}
     \endentry
@@ -1125,17 +1150,15 @@
       \strng{authorfullhash}{8e86159112b21adaafe7cbeedcb5befb}
       \field{sortinit}{W}
       \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recently, deep and/or recurrent neural networks (DNNs/RNNs) have been employed for voice conversion, and have significantly improved the performance of converted speech. However, DNNs/RNNs generally require a large amount of parallel training data (e.g., hundreds of utterances) from source and target speakers. It is expensive to collect such a large amount of data, and impossible in some applications, such as cross-lingual conversion. To solve this problem, we propose to use average voice model and i-vectors for long short-term memory (LSTM) based voice conversion, which does not require parallel data from source and target speakers. The average voice model is trained using other speakers' data, and the i-vectors, a compact vector representing the identities of source and target speakers, are extracted independently. Subjective evaluation has confirmed the effectiveness of the proposed approach.}
       \field{booktitle}{2016 {{Asia}}-{{Pacific Signal}} and {{Information Processing Association Annual Summit}} and {{Conference}} ({{APSIPA}})}
-      \field{eventtitle}{2016 {{Asia}}-{{Pacific Signal}} and {{Information Processing Association Annual Summit}} and {{Conference}} ({{APSIPA}})}
       \field{month}{12}
       \field{title}{On the Use of {{I}}-Vectors and Average Voice Model for Voice Conversion without Parallel Data}
       \field{year}{2016}
-      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
       \verb{doi}
@@ -1147,7 +1170,6 @@
       \keyw{Feature extraction,Speech,speech processing,Training,DNNs,recurrent neural nets,recurrent neural networks,voice conversion,Data mining,Speech processing,Adaptation models,average voice model,compact vector,Data models,deep neural networks,i-vector,i-vectors,long short-term memory,long short-term memory based voice conversion,LSTM based voice conversion,nonparallel training,RNNs,speech conversion,vectors}
     \endentry
   \endsortlist
-  \missing{jurafsky}
 \endrefsection
 \endinput
 

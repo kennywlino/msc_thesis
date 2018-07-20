@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Research Questions}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Research Questions}{2}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Thesis Overview}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
@@ -22,9 +22,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Accent conversion}{5}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Features}{6}{section.2.3}
+\contentsline {section}{\numberline {2.3}Technical Background}{6}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Mel-frequency cepstrum coefficient}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Mel-frequency cepstrum coefficients}{6}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Gaussian mixture models}{6}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}I-vectors}{6}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Literature Review}{7}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -40,8 +44,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Data}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Experiment 1: GMM-based accent conversion-- a reproduction of \textcite {aryal2014}}{17}{section.4.2}
+\contentsline {section}{\numberline {4.2}Experiment 1: GMM-based accent conversion}{17}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Experiment 2: I-vector based accent conversion}{17}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.1}Tools}{17}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Experiment 2: I-vector based accent conversion}{18}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Tools}{18}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Experimental results}{19}{chapter.5}
