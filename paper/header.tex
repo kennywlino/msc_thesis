@@ -4,7 +4,7 @@
 [
     a4paper,
     twoside,
-    12pt
+    12pt,
 ]
 {report}
 \usepackage[utf8]{inputenc}
@@ -26,6 +26,7 @@
 \usepackage{theorem}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.5}
 \usepackage{csvsimple}
@@ -48,6 +49,7 @@ citestyle=authoryear
 
 \addbibresource{references.bib}
 \DeclareLanguageMapping{american}{american-apa}
+\def\sectionautorefname{Section}
 
 %\setlength{\unitlength}{1cm}
 %\setlength{\oddsidemargin}{0.3cm}
@@ -58,7 +60,7 @@ citestyle=authoryear
 %\columnsep 0.5cm
 
 %\title{Seminararbeit}
-\selectcolormodel{gray}{
+\selectcolormodel{cmyk}{
 
 \input{config.tex}			
 		
@@ -69,7 +71,7 @@ citestyle=authoryear
     \vspace*{1.0cm}
     \begin{center}
         \begin{Large}
-        \textbf{A neural network-based approach to accent conversion} \\
+        \textbf{An i-vector based approach to accent conversion} \\
         \end{Large}
         \vspace*{1.0cm}
         \textit{Kenny W. Lino} \\

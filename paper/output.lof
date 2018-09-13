@@ -6,11 +6,19 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The training and conversion processes of a typical VC system.}}{5}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The training and conversion processes of a typical VC system.\relax }}{5}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The extraction of sequence 39-dimensional MFCC vectors fro a waveform.}}{6}{figure.2.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The extraction of sequence 39-dimensional MFCC vectors from a waveform.\relax }}{7}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The Gaussian distribution with different means (\( \mu \)) and variances (\( \sigma ^2 \)).\relax }}{8}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Gaussian Mixture Model convergence using the Expectation-Maximization algorithm\relax }}{9}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis. The probabilities are given in the top right corner.\relax }}{9}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An example posteriorgram representation for the spoken phrase `basketball and baseball'.\relax }}{24}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

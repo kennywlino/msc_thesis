@@ -1,18 +1,19 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'output.blg'
-[40] biber-darwin:303> INFO - === Fri Jul 20, 2018, 16:38:38
-[63] Biber.pm:359> INFO - Reading 'output.bcf'
-[164] Biber.pm:835> INFO - Found 26 citekeys in bib section 0
-[177] Biber.pm:3670> INFO - Processing section 0
-[191] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[208] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[240] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[280] Utils.pm:164> WARN - Range field 'pages' in entry 'sundermann2006' is malformed, falling back to literal
-[287] Utils.pm:164> WARN - ISBN '978-94-007-3882-9 978-94-007-3883-6' in entry 'lengeris2012' is invalid - run biber with '--validate_datamodel' for details.
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[398] Biber.pm:3499> INFO - Sorting list 'apa/global/' of type 'entry' with scheme 'apa' and locale 'en-US'
-[398] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[427] bbl.pm:608> INFO - Writing 'output.bbl' with encoding 'UTF-8'
-[434] bbl.pm:712> INFO - Output to output.bbl
-[435] Biber.pm:109> INFO - WARNINGS: 2
+[43] biber-darwin:303> INFO - === Wed Sep 12, 2018, 19:18:09
+[69] Biber.pm:359> INFO - Reading 'output.bcf'
+[183] Biber.pm:835> INFO - Found 41 citekeys in bib section 0
+[197] Biber.pm:3670> INFO - Processing section 0
+[212] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[230] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[260] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[304] Utils.pm:164> WARN - Range field 'pages' in entry 'sundermann2006' is malformed, falling back to literal
+[319] Utils.pm:164> WARN - ISBN '978-94-007-3882-9 978-94-007-3883-6' in entry 'lengeris2012' is invalid - run biber with '--validate_datamodel' for details.
+[357] Utils.pm:164> WARN - Range field 'pages' in entry 'yan2004' is malformed, falling back to literal
+[521] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[521] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[521] Biber.pm:3499> INFO - Sorting list 'apa/global/' of type 'entry' with scheme 'apa' and locale 'en-US'
+[521] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[571] bbl.pm:608> INFO - Writing 'output.bbl' with encoding 'UTF-8'
+[582] bbl.pm:712> INFO - Output to output.bbl
+[582] Biber.pm:109> INFO - WARNINGS: 3
