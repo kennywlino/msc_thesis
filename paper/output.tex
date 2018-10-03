@@ -24,6 +24,7 @@
 \usepackage{makeidx}
 \usepackage{multicol}
 \usepackage{theorem}
+\usepackage{amsmath}
 \usepackage{listings}
 \usepackage{graphicx}
 \usepackage{subcaption}
@@ -289,8 +290,8 @@ voice conversion and accent conversion in order to help better
 distinguish them. I also go over some common speech technology concepts
 typically used in these systems at a high level in order to make the
 current work more accessible to those unfamiliar with the area. Further
-reference is also provided for those interested in the technical aspects
-and formalisms.
+reference is also provided for those interested in the more technical
+aspects and formalisms.
 
 \hypertarget{voice-conversion}{%
 \section{Voice conversion}\label{voice-conversion}}
@@ -517,7 +518,7 @@ distribution used in probablistic modelling as it has been theorized
 that the average of independent random variables would look like a
 normal distribution \parencite{mcgonagle2016}.
 
-\begin{figure}[H]
+\begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.30]{img/gaussian-dist.png}
 \caption{The Gaussian distribution with different means (\( \mu \)) and variances (\( \sigma^2 \)).}
@@ -540,7 +541,7 @@ more likely to be a male than a female. This is demonstrated in
 \autoref{fig:gmm-height}.
 \colorbox{magenta}{[Create new graph from scratch or cite it.]}
 
-\begin{figure}[H]
+\begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.20]{img/gmm-height.png}
 \caption{An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis. The probabilities are given in the top right corner.} 
@@ -569,27 +570,27 @@ normalization and shape using the probabilities calculated (the
 taken from \textcite{mcgonagle2016} can be seen in
 \autoref{fig:em-converge}.
 
-\begin{figure}
+\begin{figure}[ht!]
    \centering
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg2.jpg}
          \caption{Initizalization}
          \label{fig:gmm-init}
    \end{subfigure}
    \quad
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg3.jpg}
          \caption{Mid-convergence}
          \label{fig:gmm-mid}
    \end{subfigure}
    \quad
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg4.jpg}
          \caption{Converged}
          \label{fig:gmm-conv}
    \end{subfigure}
    \quad
-   \caption{Gaussian Mixture Model convergence using the Expectation-Maximization algorithm}\label{fig:em-converge}
+   \caption{Gaussian Mixture Model convergence using the Expectation-Maximization algorithm.}\label{fig:em-converge}
 \end{figure}
 
 This model can be compared to the \emph{k}-means clustering algorithm,
@@ -632,7 +633,161 @@ within a state
 
 \subsection{Neural networks}
 
-\colorbox{magenta}{[Continue this part]}
+As indicated by its name, neural networks or more formally,
+\emph{artificial neural networks} are said to be based on the
+architecture of the brain's neurons. Like the human decision making
+process, neural networks take in a certain amount of information or
+\emph{input}, to make a decision, or more formally, to give an
+\emph{output}. This idea can be easily understood by taking a look at
+the \emph{perceptron}, the most simple form of an artificial neuron.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.20]{img/perceptron.png}
+\caption{A visual representation of the perceptron.}
+\label{fig:perceptron}
+\end{figure}
+
+A perceptron takes in a number of binary inputs (represented in the
+image by \begin{math} x_1, x_2, x_3 \end{math} ) and outputs a single
+binary output \parencite{nielsen2015}. The output is determined by
+whether the inputs are less than or greater than a defined threshold,
+and each input can be weighted to represent the importance of that input
+in determining the output. Mathematically, this can be represented as
+the following:
+
+\begin{equation*}
+    output=\begin{cases}
+        0 & \text{if $\sum_{j} w_jx_j \leq$ threshold} \\
+        1 & \text{if $\sum_{j} w_jx_j >$ threshold}
+    \end{cases}
+\end{equation*}
+
+To provide a concrete example, we can use a yes-no question (with 0
+representing `no', and 1 representing `yes') such as:
+
+\emph{``Will I watch another episode of this TV show?''}
+
+As `inputs', we can use the following questions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Do I like this show?
+\item
+  Is it still before my bedtime?
+\item
+  Am I free tomorrow?
+\end{enumerate}
+
+To decide the weights of these `inputs', we can consider how important
+we think each question is. Perhaps the most important question is
+Question \#1, and thus we can assign a weight of 4, while the other 2
+may receive a weight of 2 and 1.
+
+Finally, we need to define a threshold to determine whether we output a
+0 (no) or a 1 (yes). Evidentally, the lower the threshold, the more
+likely we're going to watch another episode. For example, with the given
+weights and a threshold of 2, we have the following possible outputs for
+each question:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  4 * 1 = 4 OR 4 * 0 = 0
+\item
+  2 * 1 = 2 OR 2 * 0 = 0
+\item
+  1 * 1 = 1 OR 1 * 0 = 0
+\end{enumerate}
+
+We can see that we would end up with a final output of 1 (yes) in the
+case that it is still before our bedtime (2 points) and/or if we like
+this show (6 points/4 points), and regardless of whether we are free
+tomorrow.
+
+Even though the previous notation of the perceptron is more simple, the
+perceptron, and more generally speaking, the neuron is more often
+described in the following notation where w represents a vector of the
+weights, x represents a vector of the inputs, and b represents
+\emph{bias}, to replace the threshold.
+
+\begin{equation*}
+    output=\begin{cases}
+        0 & \text{if $w * x + b \leq$ 0} \\
+        1 & \text{if $w * x + b >$ 0}
+    \end{cases}
+\end{equation*}
+
+The bias can be understood as being equivalent to -threshold. It can
+also be understood in terms of the neuron metaphor of how easy it is to
+get the neuron to `fire'. That is to say, the bigger the bias, the more
+likely we output a 1, and the smaller the bias, the more likely we
+output a 0.
+
+Although perceptrons are very simple to understand, they tend to not
+function well in more complex situations due to their structure. In
+particular, a small change in the weights could easily cause the output
+to go from a 1 to 0 and vice versa. Of course, in the case of the
+example above, this may not matter too heavily, but in training large
+systems, this property is too afflicting to be reliable
+\parencite{nielsen2015}.
+
+Instead, the most basic neuron used in machine learning is the
+\emph{sigmoid} neuron, which as the name indicates, utilizes the sigmoid
+function to decide the threshold. This prevents the neuron from being
+affected by small changes like the perceptron, as the decision function
+is no longer linear. The sigmoid neuron is also much more flexible, as
+it no longer requires a binary input and can instead take on any values
+between 0 and 1. Aside from the sigmoid, there are other non-linear
+functions that can be used, such as the tanh function or another known
+as the rectified linear unit (ReLU) which can offer slight improvements
+over the sigmoid depending on the task. In general, these non-linear
+functions are what give neural networks their vast power to `learn'
+\parencite{nielsen2015}.
+
+While a single neuron may be able to make very basic decisions, it is
+through a combination of them that we can make more complex systems that
+do tasks such as named entity recognition, object detection and voice
+conversion. From here, we get the name of neural \emph{network}. In the
+following figure, we see an example of a more typical neural network.
+
+\colorbox{magenta}{[Replace image below]}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{img/neural-network.png}
+\caption{An example of a neural network.}
+\label{fig:neural-network}
+\end{figure}
+
+In the example above, we have three inputs and two outputs, and a new
+concept known as a \emph{hidden layer}. The hidden layer is said to be
+able to `uncover' more additional information about the input in order
+to better decide the output. While the current example only has one
+hidden layer, the currently popular `deep learning' comes from adding
+multiple hidden layers to create a large neural network structure. Like
+hidden layers, the number of inputs and the number of puts can vastly
+vary depending on the dataset. For example, in the case of
+part-of-speech tagging, we would like the input and output size to be
+the same per sentence, as we need to have a part-of-speech tag applied
+to each word. The output layer can the output the probability of each
+possible part-of-speech tag (noun, verb, adjective, etc.) per word, and
+we can select the most probable as that word's part-of-speech.
+
+While neural networks are described at a high level here in order to
+facilitate general understanding of this work, more complex neural
+network architectures and features are not addressed here. Further
+reference regarding neural networks can be found in
+\textcite{nielsen2015}, the main reference for the description here, and
+\textcite{goldberg2017}, which provides both an overview on neural
+networks and discussion of their use in natural language processing.
+
+Neural networks in the context of voice/accent conversion will be
+further described in \autoref{accent-conversion} and
+\autoref{experiment-2-i-vector-based-accent-conversion}.
 
 \subsection{I-vectors}
 
@@ -924,43 +1079,68 @@ and puts the language in context.
 
 \textcite{chun2008} also discuss the two main methods of such prosody
 systems: one which utilizes isolated scripted sentences and the other
-utilizing imitation. They conclude that neither method is useful for
-generalizing to novel methods and suggest that the training should
-relate to the ultimate goal.
+utilizing imitation. While both types of systems are common, possibly
+due to their easier implementation, they conclude that neither method is
+useful for generalizing to novel speech production. Aside from the fact
+that the language may not be put into context, one problem with both
+types of systems is their limited number of sentences and limited source
+speakers in terms of imitation. This prevents learners from gaining an
+understanding of the variability of acceptable (and hence unacceptable)
+prosody across speakers and contexts, and may limit learners to speaking
+as similarly as they can to the given exemplars. Thus, while these
+systems might provide language learners with a basis to improve their
+prosody, further work needs to be put in to help them contextualize
+prosody as a general concept and to give learners more autonomy in
+developing their own speaking style.
 
-\colorbox{magenta}{[This part needs polishing]} Other information they
-provide in this article are prosody models used in previous studies. We
-see that some previous studies have focused on utilizing a variety of
-sentence types to teach prosody, contrasting \textit{wh}-questions, echo
-questions, either-or questions and statements. Like the other articles,
-the works examined in \textcite{chun2008} gives us insight on potential
-ways to improve future CAPT systems, as we are shown exemplars of
-potential input and positive reinforcements in successful types of
-feedback for the user. They conclude that in order to create better
-pronunciation training systems, we should take advantage of recent
-technology.
+Similar to \textcite{neri2002}, \textcite{chun2008} also gives insight
+on potential ways to improve future CAPT systems. One particularly
+compelling suggestion they give is to expand systems to include gestures
+and movement. While most research on language education and in turn,
+linguistics, is focused on the spoken aspect, \textcite{chun2008} points
+out that spoken language is complementary with our body language. For
+example, when we raise our pitch, we also tend to raise our eyebrows and
+chin, and when we emphasize a specific, we might also stress it by
+opening our eyes slightly wider, bobbing our head or pointing our
+finger. In fact, one of the few studies that examine the effect of
+including body language in teaching L2 listening comprehension found
+that learners performed much better with these visual cues as opposed to
+only having audio cues. Thus they conclude that in order to create
+better pronunciation training systems, learners must be provided with
+better feedback and language must be placed into context not only in
+terms of real-life situations, but also in terms of communication as a
+whole by including gestures and movement.
 
-In recent works related to gamified language teaching,
-\parencite{tejedor-garcia2017} experiment with utilizing synthetic
-voices for corrective feedback in a pronunciation training tool. In
-their study, they use Google's offline Android text-to-speech (TTS)
-system as feedback for B1 and B2 Spanish learners of English, and have
-them focus on the six most difficult pairs of vowels
-\colorbox{magenta}{[insert IPA here?]}. In order to train the users, the
-researchers first had them watch videos that describe the
+With that said, building pronunciation systems that take all of the
+previous suggestions into consideration requires adept planning and
+expertise, and can be demanding for most research groups. Instead, some
+of have tried to adapt already existing technology and build a small
+architecture around it. For example, \parencite{tejedor-garcia2017}
+experiment with utilizing synthetic voices for corrective feedback in a
+pronunciation training tool. In their study, they use Google's offline
+Android text-to-speech (TTS) system as feedback for B1 and B2 Spanish
+learners of English, and have them focus on the six most difficult pairs
+of vowels \colorbox{magenta}{[insert IPA here?]}. In order to train the
+users, the researchers first had them watch videos that describe the
 articulatory/perceptive features of the vowels, and had them listen to a
 number of minimal pairs produced by the TTS system in succession.
 Afterwards, they were asked to discriminate minimal pairs in a listening
-task and then asked to pronounce them.
+task and then asked to pronounce them. From this study, they conclude
+that making use of commercial TTS systems are beneficial for users and
+instructors alike as indicated by both the improvement in performance by
+the users and the feedback given by those involved in the experiment.
+However, because the study was limited to individual words and only six
+pairs of vowels, further experimentation needs to be conducted in order
+to understand whether these learners can generalize their training.
 
-From this study, they conclude that making use of common commercial TTS
-are beneficial for users and instructors alike as indicated by both the
-improvement in performance by the users and the feedback given by those
-involved in the experiment. This provides further support for works like
-\parencite{felps2009}, who demonstrated that accent converted speech
-also However, because the study was limited to individual words and only
-six pairs of vowels, further experimentation needs to be conducted in
-order to fully support their claim.
+Through examining these various works, it is evident that there is a
+large potential for appropriately adapting technology to guide and help
+language learners and teachers alike. Yet, in order to provide
+long-standing worthwhile results, further consideration needs to be
+given to the suggestions and evidence of previous research and should be
+integrated in the design and implementation of future systems. This
+implies that the appropriate time and resources may need to be dedicated
+in order to push the boundaries of CAPT systems.
 
 \hypertarget{voice-conversion}{%
 \section{Voice conversion}\label{voice-conversion}}
@@ -971,18 +1151,36 @@ field, earlier voice conversion systems began with utilizing MFCCs and
 GMMs for conversion and slowly evolved towards utilizing more advanced
 features and adaptation techniques.
 
-\colorbox{magenta}{[Discuss Toda(2007) or something here that uses GMMs.]}
+In particular, a variation of GMM voice conversion set forth by
+\textcite{toda2007} has become what appears to be the standard set-up.
+Following their reasoning, they argue that although regular GMMs perform
+fairly well in voice conversion, they also lead to the deterioration of
+speech quality. Instead, they propose that by using a maximum-likelihood
+estimation of the spectral parameter trajectories, issues that cause the
+loss of quality such as oversmoothing of the spectral features can be
+avoided. They provide detailed theoretical evidence to support their
+method which can be further observed by taking a look at their paper.
 
-One particular method that has been applied recently from other areas of
-speech technology is the usage of \emph{i-vectors}. I-vectors are akin
-to word embeddings in text-based natural language processing tasks in
-the sense that i-vectors encapsulate any type of desired speech
-information in a vectorized fashion.
-\colorbox{magenta}{How are they different from MFCCs though, because MFCCs also vectorize speech information.}
-I-vectors have proven to be successful in a number of tasks, such as
-speaker verification, language identification, and native accent
-identification. Of particular interest is \textcite{demarco2013}, who
-shows that \colorbox{magenta}{[continue here]}
+GMMs have long been used for voice conversion alongside other speech
+tasks, but more recently another method-- or more accurately another
+feature in place of MFCCs, known as \emph{i-vectors} have taken off. To
+put concisely, i-vectors are akin to word embeddings in text-based
+natural language processing tasks in the sense that i-vectors
+encapsulate any type of desired speech information in a vectorized
+fashion. This may be confusable with MFCCs, which also vectorize speech
+information; however MFCCs specifically vectorize individual speech
+sounds from frames, while i-vectors tend to vectorize more large-scale,
+dynamic speech information.
+
+The usage of i-vectors have proven to be successful in a number of
+tasks, such as speaker verification, language identification, and native
+accent identification. They have become especially popular due to the
+fact that they work well with unlabeled acoustic data. Referring back to
+the overview of voice conversion in the previous section, it is
+mentioned that labeled acoustic data often leads to better results in
+the conversion, but is also often unavailable. Thus i-vectors are able
+to fill this gap in the lack of available labeled data and the loss of
+conversion quality.
 
 In the instance of voice conversion, i-vectors are made of speaker
 super-vectors trained on GMMs and low dimensional features that
@@ -999,37 +1197,74 @@ as \textcite{wu2016} and \textcite{kinnunen2017}. Following
 aligns perfectly with the task as it is highly similar to speaker
 verification; however instead of being a classification task (e.g.~is
 this said speaker or not), voice conversion is a regression task. In
-\textcite{wu2016}, they test and compare a variety of frameworks, such
-as a deep bi-directional long-short term memory neural (DBLSTM) network
-architecture, a DBLSTM combined with an average voice model, a DBLSTM
-combined with an average voice model retrained on some paralleled data,
-and another model which combined a DBLSTM, average voice model, and
-i-vectors. In order to evaluate these models, they provide both an
+\textcite{wu2016}, they test and compare the performance of using plain
+mel-cepstral coefficients (MCCs) against i-vectors by training a variety
+of systems. Among their systems, they utilize a strategy known as the
+\emph{average voice model}, which models what an average speaker would
+sound like by utilizing a large amount of parallel utterances, which
+also allows for conversion between two speakers \emph{without} having
+parallel utterances. In order to compare MCCs vs.~i-vectors, they train
+systems using MCCs as features with a deep bi-directional long-short
+term memory neural (DBLSTM) network architecture, a DBLSTM combined with
+an average voice model (DBLSTM + AVM), and a DBLSTM combined with an
+average voice model retrained on some paralleled data from the testing
+source-target speakers (DBLSTM + RM). They then train another system
+with i-vectors using the DBLSTM and average voice model (DBLSTM + AVM +
+i-vectors). In order to evaluate these models, they provide both an
 objective evaluation using a measure known as mel-cepstral distortion
 (MCD) and a subjective evaluation rated on quality and similarity, which
 was decided by the votes of 20 listeners.
 
-\colorbox{magenta}{[expand on \textcite{wu2016} more]}
+Following the results of the objective evaluation, they find that the
+system with the lowest mel-cepstral distortion (e.g.~the best system) is
+the DBLSTM + RM model, followed by the DBLSTM + AVM model, with the
+regular DBLSTM system and DBLSTM + AVM + i-vector system performing
+roughly the same. They note that the DBLSTM + RM system likely performed
+the best because of the inclusion of parallel data from the test
+dataset, while the DBLSTM + AVM outperformed the regular DBLSTM likely
+due to the size of the training data. However, they do not give much
+indication as to why the DBLSTM + AVM and DBLSTM + AVM + i-vectors
+perform similarly. Based off of the MCD alone, it would seem that
+i-vectors do not provide much benefit; however they emphasize that the
+DBLSTM + RM system does include parallel data while the DBLSTM + AVM +
+i-vectors system does not.
 
-Following the results of the subjective evaluation, they find that
-adding i-vectors to the DBLSTM and average voice model outperforms the
-DBLSTM and average voice model \emph{without} i-vectors and that the
-DBLSTM and average voice model with i-vectors performs almost as well as
-the DBLSTM that was retrained. This underscores the need for i-vectors
-to capture speaker characteristics; without, the system highly
-underperforms and has poor quality and similarity.
+In the subjective evaluation, they compare the four systems by using an
+ABX preference test to compare: DBLSTM + RM vs.~DBLSTM, DBLSTM + AVM +
+i-vectors vs.~DBLSTM + RM and DBLSTM + AVM + i-vectors vs.~DBLSTM + AVM.
+With each pair, they have the listeners evaluate 10 sentences for a
+total of 200 votes for each system. Following the results, they find
+that the DBLSTM + AVM + i-vectors system outperforms the DBLSTM + AVM
+system in both the speech quality and speaker similarity categories with
+statistical significance, which shows that the average voice model
+\emph{without} i-vectors (e.g.~MCCs only cannot capture speaker specific
+information. They also find that the DBLSTM + RM system outperforms the
+plain DBLSTM system with statistical significance, indicating that the
+average voice model is not only useful, but also helps reduce the amount
+of parallel training data required to improve the performance. Finally,
+they find that the DBLSTM + AVM + i-vectors system was rated slightly
+higher in quality, but opposite in similarity. However this was without
+statistical significance, indicating that they perform roughly the same.
+From this study, \textcite{wu2016} concludes that the DBLSTM + AVM +
+i-vectors method has potential as it allows for great flexibility to
+generate the target speaker spectrum without using parallel data.
 
-As oppose to \textcite{wu2016} which utilizes an \emph{eigenvoice} (or
-average voice), \textcite{kinnunen2017} supersedes \textcite{wu2016} by
-not requiring \emph{any} parallel data.
+As oppose to \textcite{wu2016} which utilizes the average voice model in
+order to create a strong voice conversion system,
+\textcite{kinnunen2017} takes a different approach by
+\colorbox{magenta}{[hmmm...]}
 
-Although most voice conversion systems have been successful at the
-general task, many of them suffer from low quality and/or low
-naturalness in their final outputs. For example, in listening to the
-audio of
+One \textcite{demarco2013}, who present a through analysis of the usage
+of i-vectors in classifying native British accents.
+
+Even though systematic objective and subjective evaluation against older
+methods do indicate that recent methods have improved upon the older
+ones, comparing the performance of these systems against a true human
+voice, or perhaps more fairly, against other recent systems in other
+areas of speech technology, these systems still seem to leave a lot left
+to be desired. For example, in listening to the audio of
 \textcite{wu2016}\footnote{Visit http://www.nwpu-aslp.org/vc/apsipa-jiewu-demo.pptx to hear samples.}
 \colorbox{magenta}{[Maybe change footnotes to say listen to audio on the accompanying disk?]}
-
 it is apparent that regardless of the low quality of the original source
 and target audios, the quality of the converted audio sounds muffled.
 This can be attributed to the various nuanced steps and features
@@ -1048,7 +1283,7 @@ the current state of voice conversion and perhaps machine learning
 research in general as this year saw a huge increase in the number of
 systems using neural networks. However, it does not go without saying
 that there were indeed systems that used more traditional statistical
-methods, such as Gaussi an Mixture Models (GMM) and one of its
+methods, such as Gaussian Mixture Models (GMM) and one of its
 variations, differential GMM (DIFFGMM).
 
 In order to evaluate the systems, a group of roughly 300 listeners were
@@ -1097,15 +1332,17 @@ conversion, there have also been some incredible breakthroughs in
 systems set forth by research teams at Google Brain. One such system
 involves the Tacotron end-to-end system, which has been proposed to
 replace the current set-up of text-to-speech systems by reducing the
-amount of components (decoder, vocoder, etc.
-\colorbox{magenta}{[IS THIS TRUE?]}) into one piece. The researchers
-working on this system have recently revealed a impressive system that
-also takes advantage of deep neural networks to encode speaker
-characteristics into embeddings, which are then utilized to transfer
-style \parencite{wang2018}. They show how their system is capable of
-transferring a variety of emotions and accents, making the synthesized
-audio sound more human-like. Samples of these audios can be found
-\colorbox{magenta}{[put link here.]}
+amount of components (decoder, vocoder, etc.) into one piece. The
+researchers working on this system have recently revealed a impressive
+system that also takes advantage of deep neural networks to encode
+speaker characteristics into embeddings, which are then utilized to
+transfer style \parencite{wang2018}. They show how their system is
+capable of transferring a variety of emotions and accents, making the
+synthesized audio sound more human-like. Samples of these audios can be
+found at the following
+link\footnote{Visit \url{https://google.github.io/tacotron/publications/global_style_tokens/} to hear samples.}.
+
+\colorbox{magenta}{Also add to disc?}
 
 Even though the these systems created by Google Brain are highly
 impressive, it is evident that the reason for the success of their
@@ -1133,17 +1370,49 @@ However, before the work of these researchers, works such as
 various features in order to observe their relationship with a perceived
 accent. In \textcite{yan2004}, they manipulate spectral features,
 intonation patterns and duration in order to observe their correlation
-across British, Australian and American accents.
+across British, Australian and American accents. Through an ABX
+perceptual test, they found that 75\% of the synthesized utterances were
+evaluated as having the native accent, highlighting the potential for
+segmental accent conversion.
 
-Through an ABX perceptual test, they found that 75\% of the synthesized
-utterances were evaluated as having the native accent, highlighting the
-potential for segmental accent conversion.
+In \textcite{huckvale2007}, they examine the relationship between
+intelligibility and the of morphing various segmental and suprasegmental
+features such as pitch, rhythm and segments of an English TTS system
+designed to speak `accented' Japanese. This TTS system was designed by
+creating a custom dictionary and mapping the Japanese sounds to their
+closest English counterpart. They found through native speaker
+evaluation that morphing pitch and rhythm individually had no effect,
+and similarly modifying segments alone only gave a small improvement.
+However, they discovered that combining the morphing of all of these
+features created a large increase in intelligibility, with
+intelligibility going up from 57\% as seen in their lowest-performing
+system to 84\%. The results emphasize the need to consider the
+interaction between segmental and suprasegmental in the conversion task.
 
-In \textcite{huckvale2007}
-
-\colorbox{magenta}{[go into these works a little more]}
-
-\colorbox{magenta}{\textcite{felps2009}}
+In one of the earliest works from the Texas A\&M research group, and
+perhaps a key influential paper to this work, \textcite{felps2009}
+examines the potential of using a method known as Pitch-Synchronous
+Overlap and Add (PSOLA) for accent with the motivation of applying it in
+the context of language learning. Specifically, they utilize a
+specialized PSOLA method known as Fourier-domain PSOLA (FD-PSOLA), as it
+performs best in preventing spectral distortion when modifying the
+pitch. \colorbox{magenta}{[explain PSOLA]} In order to conduct the
+conversion process, they separate the converting of the segments and the
+converting of the prosody into two separate parts, with both parts
+evaluated individually and combined. In evaluating their method, they
+measured the accentedness, acoustic quality and identity of each
+converted audio using auditory tests given to a number of speakers.
+Similar to \textcite{huckvale2007}, they observe that the combination of
+prosodic and segemental transformation lead to a large improvement in
+reducing foreign accent. However, in terms of quality, they found that
+all transformations led to lower ratings, which likely indicates the
+loss of some spectral information. The identity ratings proved to be the
+most interesting as \textcite{felps2009} find that the listeners
+indicate a `third' speaker. In other words, the converted audio sounds
+neither like the source or target speaker. Thus \textcite{felps2009}
+concludes that while accentedness is reduced by their system, their
+proposed system also loses the necessary information needed to retain
+the speaker's identity.
 
 \colorbox{magenta}{\textcite{felps2010}} ? {[}paper on evaluation{]}
 

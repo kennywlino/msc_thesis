@@ -605,6 +605,34 @@
       \verb /Users/kennylino/Zotero/storage/LVIWZSMU/Flege et al. - 1995 - Factors affecting strength of perceived foreign ac.pdf
       \endverb
     \endentry
+    \entry{goldberg2017}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=33b00f3e2f4f1bb310f1cf8d4a4c500a}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan \& Claypool Publishers}%
+      }
+      \strng{namehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{fullhash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{authornamehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{authorfullhash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural Network Methods for Natural Language Processing}
+      \field{volume}{10}
+      \field{year}{2017}
+      \verb{file}
+      \verb /Users/kennylino/Zotero/storage/V8QYPHFT/S00762ED1V01Y201703HLT037.html
+      \endverb
+    \endentry
     \entry{hardison2005}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=1f555ad5b507daa2cc2bc40a0adfddf5}{%
@@ -1254,6 +1282,36 @@
       \endverb
       \keyw{Computer Science - Sound}
     \endentry
+    \entry{nielsen2015}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=790b57a148d0102f1420b73dd7d8cb95}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Determination Press}%
+      }
+      \strng{namehash}{790b57a148d0102f1420b73dd7d8cb95}
+      \strng{fullhash}{790b57a148d0102f1420b73dd7d8cb95}
+      \strng{authornamehash}{790b57a148d0102f1420b73dd7d8cb95}
+      \strng{authorfullhash}{790b57a148d0102f1420b73dd7d8cb95}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural {{Networks}} and {{Deep Learning}}}
+      \field{year}{2015}
+      \verb{file}
+      \verb /Users/kennylino/Zotero/storage/GNILCK5F/neuralnetworksanddeeplearning.com.html
+      \endverb
+    \endentry
     \entry{patkowski1990}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=d9e77dab7c260b1bdd416d330ecbcd83}{%
@@ -1477,6 +1535,52 @@
       \verb{file}
       \verb /Users/kennylino/Documents/Articles/Tejedor-GarcíaC/2017/Tejedor-García_2017_Evaluating the Efficiency of Synthetic Voice for Providing Corrective Feedback.pdf
       \endverb
+    \endentry
+    \entry{toda2007}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4bd4c2fb3a93c9ad7ee442c0a0331be9}{%
+           family={Toda},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=509dd76a9801841299c03526404d8215}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=bc73fa962261ca1227ff9bc144f9e202}{%
+           family={Tokuda},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{27e8fc6ace126618db698e82705ff827}
+      \strng{fullhash}{4a1a441949abb5a6abd207d802cd351a}
+      \strng{authornamehash}{27e8fc6ace126618db698e82705ff827}
+      \strng{authorfullhash}{4a1a441949abb5a6abd207d802cd351a}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we describe a novel spectral conversion method for voice conversion (VC). A Gaussian mixture model (GMM) of the joint probability density of source and target features is employed for performing spectral conversion between speakers. The conventional method converts spectral parameters frame by frame based on the minimum mean square error. Although it is reasonably effective, the deterioration of speech quality is caused by some problems: 1) appropriate spectral movements are not always caused by the frame-based conversion process, and 2) the converted spectra are excessively smoothed by statistical modeling. In order to address those problems, we propose a conversion method based on the maximum-likelihood estimation of a spectral parameter trajectory. Not only static but also dynamic feature statistics are used for realizing the appropriate converted spectrum sequence. Moreover, the oversmoothing effect is alleviated by considering a global variance feature of the converted spectra. Experimental results indicate that the performance of VC can be dramatically improved by the proposed method in view of both speech quality and conversion accuracy for speaker individuality.}
+      \field{issn}{1558-7916}
+      \field{journaltitle}{IEEE Transactions on Audio, Speech, and Language Processing}
+      \field{month}{11}
+      \field{number}{8}
+      \field{title}{Voice {{Conversion Based}} on {{Maximum}}-{{Likelihood Estimation}} of {{Spectral Parameter Trajectory}}}
+      \field{volume}{15}
+      \field{year}{2007}
+      \field{pages}{2222\bibrangedash 2235}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TASL.2007.907344
+      \endverb
+      \verb{file}
+      \verb /Users/kennylino/Zotero/storage/FWL43PJA/Toda et al. - 2007 - Voice Conversion Based on Maximum-Likelihood Estim.pdf;/Users/kennylino/Zotero/storage/H8FGCIG7/4317579.html
+      \endverb
+      \keyw{speech processing,voice conversion,Gaussian mixture model,Gaussian processes,Loudspeakers,spectral analysis,Training data,Speech processing,speech quality,Dynamic feature,Gaussian mixture model (GMM),global variance,joint probability density,least mean squares methods,maximum likelihood estimation,Maximum likelihood estimation,maximum-likelihood estimation,maximum-likelihood estimation (MLE),Mean square error methods,minimum mean square error,Natural languages,Parameter estimation,probability,spectral conversion method,spectral parameter trajectory,Speech enhancement,speech synthesis,statistical modeling,Statistics,Virtual colonoscopy,voice conversion (VC)}
     \endentry
     \entry{vanderplas2016}{book}{}
       \name{author}{1}{}{%

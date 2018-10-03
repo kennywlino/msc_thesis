@@ -1,7 +1,7 @@
 \cleardoublepage
 
 \chapter{Background}
-Before delving into previous literature and their relevance to this work and the fields of NLP and language learning as a whole, I detail both voice conversion and accent conversion in order to help better distinguish them. I also go over some common speech technology concepts typically used in these systems at a high level in order to make the current work more accessible to those unfamiliar with the area. Further reference is also provided for those interested in the technical aspects and formalisms. 
+Before delving into previous literature and their relevance to this work and the fields of NLP and language learning as a whole, I detail both voice conversion and accent conversion in order to help better distinguish them. I also go over some common speech technology concepts typically used in these systems at a high level in order to make the current work more accessible to those unfamiliar with the area. Further reference is also provided for those interested in the more technical aspects and formalisms. 
 
 
 # Voice conversion
@@ -71,7 +71,7 @@ A visual representation of the whole MFCC extraction process can be seen in \aut
 \subsection{Gaussian mixture models}
 A Gaussian mixture model is a type of probablistic model that aims to represent normally distributed groups within a set. This is based on the idea of the normal, or *Gaussian* distribution, which can be see in \autoref{fig:gaussian-dist}. \colorbox{magenta}{[Create new graph from scratch or cite it.]} The Gaussian distribution is characterized by two main features: the mean (the arithmetic average of the data) and the variance (the spread of the data from the mean). The Gaussian distribution is the most important distribution used in probablistic modelling as it has been theorized that the average of independent random variables would look like a normal distribution \parencite{mcgonagle2016}.
 
-\begin{figure}[H]
+\begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.30]{img/gaussian-dist.png}
 \caption{The Gaussian distribution with different means (\( \mu \)) and variances (\( \sigma^2 \)).}
@@ -80,7 +80,7 @@ A Gaussian mixture model is a type of probablistic model that aims to represent 
 
 Gaussian mixture models are based on the principle that if a unimodal (one 'peak') dataset can be fit with a Gaussian distribution, then a multimodal (multi 'peak') dataset is just a 'mixture' of smaller Gaussian distributions. A common example given to understand the Gaussian distribution and Gaussian mixture models often references height. It is often said that men are taller than women on average, with men being 178cm (5 foot 10 inches), and women being 165cm (5 foot 5 inches). If we used two separate Gaussians to model each gender, we could 'mix' them to model the likelihood of a certain data point (e.g. person) being a male or a female \parencite{mcgonagle2016}. For example, using a hypothetical example with the averages previously mentioned, we could see that the likelihood of a person that is 168cm is more likely to be a male than a female. This is demonstrated in \autoref{fig:gmm-height}. \colorbox{magenta}{[Create new graph from scratch or cite it.]}
 
-\begin{figure}[H]
+\begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.20]{img/gmm-height.png}
 \caption{An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis. The probabilities are given in the top right corner.} 
@@ -92,27 +92,27 @@ However, as simple as this sounds the most advantageous point of the Gaussian mi
 
 Because it is an _unsupervised_ model, it requires a special method to estimate the appropriate parameters. The most common method used for this is known as _expectation maximization_. This algorithm is used for maximum likelihood estimation. In other words, this algorithm tries to find the most appropriate group for each datapoint by calculating the probability of it being in a certain group and selecting the most likely one. This is done iteratively by initializing reasonable values, and then calculating the probability of membership in each cluster (the _expectation_ step) and updating each clusters location, normalization and shape using the probabilities calculated (the _maximization_ step) until the algorithms converge \parencite{vanderplas2016}. A visual example of the convergence process taken from \textcite{mcgonagle2016} can be seen in \autoref{fig:em-converge}.
 
-\begin{figure}
+\begin{figure}[ht!]
    \centering
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg2.jpg}
          \caption{Initizalization}
          \label{fig:gmm-init}
    \end{subfigure}
    \quad
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg3.jpg}
          \caption{Mid-convergence}
          \label{fig:gmm-mid}
    \end{subfigure}
    \quad
-   \begin{subfigure}[b]{0.3\textwidth}
+   \begin{subfigure}[H]{0.3\textwidth}
       \includegraphics[width=\textwidth]{img/em-alg4.jpg}
          \caption{Converged}
          \label{fig:gmm-conv}
    \end{subfigure}
    \quad
-   \caption{Gaussian Mixture Model convergence using the Expectation-Maximization algorithm}\label{fig:em-converge}
+   \caption{Gaussian Mixture Model convergence using the Expectation-Maximization algorithm.}\label{fig:em-converge}
 \end{figure}
 
 This model can be compared to the _k_-means clustering algorithm, as both can be used to cluster different subgroups. Like the _k_-means algorithm, GMMs also require us to specify a number of components, which usually indicate the number of subgroups we hope to cluster. However, _k_-means suffers from not using a probablistic model to assign clusters, which means that data points can only be assigned to exactly one cluster. The cluster shape of _k_-means is also limited to only circles, which makes it inadequate to model data with different distributions. GMMs manage to address these issues by using the expectation-maximization algorithm to calculate the probabilities of cluster assignment and by allowing for different covariance types which permits for different cluster shapes beyond the circle. Aside from being useful as an unsupervised classification algorithm, GMMs can also be seen as a generative algorithm as it models the overall distribution of the data \parencite{mcgonagle2016}. This means that a GMM can be used to generate new data points following the distribution of the given data set. 
@@ -124,10 +124,81 @@ Although GMMs are useful for modeling the distribution of sounds within a datase
 
 
 \subsection{Neural networks}
-\colorbox{magenta}{[Continue this part]}
+
+As indicated by its name, neural networks or more formally, _artificial neural networks_ are said to be based on the architecture of the brain's neurons. Like the human decision making process, neural networks take in a certain amount of information or _input_, to make a decision, or more formally, to give an _output_. This idea can be easily understood by taking a look at the _perceptron_, the most simple form of an artificial neuron.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.20]{img/perceptron.png}
+\caption{A visual representation of the perceptron.}
+\label{fig:perceptron}
+\end{figure} 
+
+A perceptron takes in a number of binary inputs (represented in the image by \begin{math} x_1, x_2, x_3 \end{math} ) and outputs a single binary output \parencite{nielsen2015}. The output is determined by whether the inputs are less than or greater than a defined threshold, and each input can be weighted to represent the importance of that input in determining the output. Mathematically, this can be represented as the following:
+
+\begin{equation*}
+    output=\begin{cases}
+        0 & \text{if $\sum_{j} w_jx_j \leq$ threshold} \\
+        1 & \text{if $\sum_{j} w_jx_j >$ threshold}
+    \end{cases}
+\end{equation*}
+
+ 
+To provide a concrete example, we can use a yes-no question (with 0 representing 'no', and 1 representing 'yes') such as:
+
+_"Will I watch another episode of this TV show?"_
+
+As 'inputs', we can use the following questions:
+
+1. Do I like this show?
+2. Is it still before my bedtime?
+3. Am I free tomorrow?
+
+To decide the weights of these 'inputs', we can consider how important we think each question is. Perhaps the most important question is Question #1, and thus we can assign a weight of 4, while the other 2 may receive a weight of 2 and 1.
+
+Finally, we need to define a threshold to determine whether we output a 0 (no) or a 1 (yes). Evidentally, the lower the threshold, the more likely we're going to watch another episode. For example, with the given weights and a threshold of 2, we have the following possible outputs for each question:
+
+1. 4 * 1 = 4 OR 4 * 0 = 0 
+2. 2 * 1 = 2 OR 2 * 0 = 0
+3. 1 * 1 = 1 OR 1 * 0 = 0
+
+We can see that we would end up with a final output of 1 (yes) in the case that it is still before our bedtime (2 points) and/or if we like this show (6 points/4 points), and regardless of whether we are free tomorrow.
+
+Even though the previous notation of the perceptron is more simple, the perceptron, and more generally speaking, the neuron is more often described in the following notation where w represents a vector of the weights, x represents a vector of the inputs, and b represents _bias_, to replace the threshold.
+
+
+\begin{equation*}
+    output=\begin{cases}
+        0 & \text{if $w * x + b \leq$ 0} \\
+        1 & \text{if $w * x + b >$ 0}
+    \end{cases}
+\end{equation*}
+
+The bias can be understood as being equivalent to -threshold. It can also be understood in terms of the neuron metaphor of how easy it is to get the neuron to 'fire'. That is to say, the bigger the bias, the more likely we output a 1, and the smaller the bias, the more likely we output a 0. 
+
+Although perceptrons are very simple to understand, they tend to not function well in more complex situations due to their structure. In particular, a small change in the weights could easily cause the output to go from a 1 to 0 and vice versa. Of course, in the case of the example above, this may not matter too heavily, but in training large systems, this property is too afflicting to be reliable \parencite{nielsen2015}. 
+
+Instead, the most basic neuron used in machine learning is the _sigmoid_ neuron, which as the name indicates, utilizes the sigmoid function to decide the threshold. This prevents the neuron from being affected by small changes like the perceptron, as the decision function is no longer linear. The sigmoid neuron is also much more flexible, as it no longer requires a binary input and can instead take on any values between 0 and 1. Aside from the sigmoid, there are other non-linear functions that can be used, such as the tanh function or another known as the rectified linear unit (ReLU) which can offer slight improvements over the sigmoid depending on the task. In general, these non-linear functions are what give neural networks their vast power to 'learn' \parencite{nielsen2015}.
+
+While a single neuron may be able to make very basic decisions, it is through a combination of them that we can make more complex systems that do tasks such as named entity recognition, object detection and voice conversion. From here, we get the name of neural _network_. In the following figure, we see an example of a more typical neural network.
+
+\colorbox{magenta}{[Replace image below]}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{img/neural-network.png}
+\caption{An example of a neural network.}
+\label{fig:neural-network}
+\end{figure} 
+
+In the example above, we have three inputs and two outputs, and a new concept known as a _hidden layer_. The hidden layer is said to be able to 'uncover' more additional information about the input in order to better decide the output. While the current example only has one hidden layer, the currently popular 'deep learning' comes from adding multiple hidden layers to create a large neural network structure. Like hidden layers, the number of inputs and the number of puts can vastly vary depending on the dataset. For example, in the case of part-of-speech tagging, we would like the input and output size to be the same per sentence, as we need to have a part-of-speech tag applied to each word. The output layer can the output the probability of each possible part-of-speech tag (noun, verb, adjective, etc.) per word, and we can select the most probable as that word's part-of-speech.
+
+While neural networks are described at a high level here in order to facilitate general understanding of this work, more complex neural network architectures and features are not addressed here. Further reference regarding neural networks can be found in \textcite{nielsen2015}, the main reference for the description here, and \textcite{goldberg2017}, which provides both an overview on neural networks and discussion of their use in natural language processing. 
+
+Neural networks in the context of voice/accent conversion will be further described in \autoref{accent-conversion} and \autoref{experiment-2-i-vector-based-accent-conversion}.
 
 \subsection{I-vectors}
 Identity vectors, or _i-vectors_ are used as a method to model both the intra-domain and inter-domain variables of speech signals in the same low dimensional space. They are considered one of the more modern methods in speech recognition, compared to the more classic Gaussian mixture models and its modification, Gaussian Mixture Models with universal background model (GMM-UBM), and joint factor analysis. In fact, i-vectors stem from a modification of the joint factor anaylsis method which is explained as the following.
 
 \colorbox{magenta}{[Continue this part]}
-
