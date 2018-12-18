@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0119AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0109AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0066AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0011AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0143AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0017AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0146AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0065AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0043AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/spanish/output/NJS_arctic_a0105AC-w_MLPG.wav

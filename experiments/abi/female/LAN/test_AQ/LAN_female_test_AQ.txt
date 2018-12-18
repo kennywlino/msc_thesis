@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_15AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_16AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_19AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_11AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_01AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_20AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_04AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_13AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortphrases_07AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/LAN/output/shortsentences_14AC-w_MLPG.wav

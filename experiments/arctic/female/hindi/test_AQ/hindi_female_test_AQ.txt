@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0057AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0129AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0033AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0052AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0087AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0110AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0132AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0147AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0077AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/hindi/output/TNI_arctic_a0020AC-w_MLPG.wav

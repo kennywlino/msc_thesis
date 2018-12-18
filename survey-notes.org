@@ -1,0 +1,59 @@
+Organizing Thesis Survey
+
+Corpus info
+* 2 corpora
+* 6 speakers per corpus (3 M, 3 F) --> 12 speakers in total
+* 50 test utterances per speaker
+* 600 test utterances in total
+
+Evaluation Criteria
+* Acoustic quality
+** Mean opinion score of 1 to 5 (bad to excellent)
+** 10 randomly chosen utterances
+
+* Speaker identity
+** Voice similarity score from -7 (definitely different speakers) to +7
+** Utterances should be reversed
+** 10 randomly chosen utterances
+
+* Accentedness
+** When When adding audio to those folders rename them to:
+** Save the original name of the audio files to a text file
+** SPEAKER_ID_GENDER_TEST_EVAL_CRITERIA_FILE#_.wav
+** e.g. EAN_male_test_AQ_1.wav
+
+n adding audio to those folders rename them to:
+** Save the original name of the audio files to a text file
+** SPEAKER_ID_GENDER_TEST_EVAL_CRITERIA_FILE#_.wav
+** e.g. EAN_male_test_AQ_1.wav
+
+Randomly chosen utterances
+
+Survey structure
+* 360 utterances to be evaluated
+** 12 surveys with 30 audios (1 for each speaker)
+** 6 surveys with 60 audios (30 audios from ABI, 30 audios from ARCTIC)
+
+* When adding audio to those folders rename them to:
+** Save the original name of the audio files to a text file
+** SPEAKER_ID_GENDER_TEST_EVAL_CRITERIA_FILE#_.wav
+** e.g. EAN_male_test_AQ_1.wav
+
+* Organize audio into a folder for each eval criteria:
+
+** Acoustic quality
+*** 10 random audio files (can stay the same as currently chosen)
+
+** Accentedness
+*** 10 ABX groups of audio files; does converted audio sound more like A or B?
+*** Randomize A and B between Source and Target speakers
+*** e.g. GLA -> 1A, SSE -> 1B; SSE -> 2A, GLA -> 2B
+
+** Speaker identity
+*** 10 pairs of random audio files; should be counter-balanced and REVERSED
+*** e.g. converted audio -> 1A, source -> 1B; source -> 2A, converted audio -> 2B
+
+
+
+
+

@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0016AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0138AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0031AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0133AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0066AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0144AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0146AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0134AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0052AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/korean/output/HKK_arctic_a0132AC-w_MLPG.wav
