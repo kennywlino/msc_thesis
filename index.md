@@ -5,4 +5,5 @@ title: Accent Conversion Survey
 # description: 
 ---
 EAN - Test_AQ 1
-"experiments/abi/female/EAN/test_AQ/EAN_female_test_AQ_1.wav?autoplay=0&controls=1"
+
+<audio src="experiments/abi/female/EAN/test_AQ/EAN_female_test_AQ_1.wav" controls preload></audio>
