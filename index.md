@@ -6,9 +6,4 @@ title: Accent Conversion Survey
 ---
 EAN - Test_AQ 1
 
-<iframe 
-  frameborder="0" 
-  width="400"     
-  height="200"
-  src="https://drive.google.com/file/d/1qONzAb93c4lBbBoACupQNL_WD0Elj14_/preview?usp=sharing">    
-</iframe>
+<audio src="experiments/abi/female/EAN/test_AQ/EAN_female_test_AQ_1_PCM.wav" controls preload></audio>
