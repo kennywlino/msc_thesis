@@ -1,6 +1,6 @@
 ---
 layout: page
-title: hindi Male
+title: Hindi Male
 description: Test audio files for *hindi male* speaker from the ABI corpus.
 ---
 

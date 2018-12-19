@@ -1,6 +1,6 @@
 ---
 layout: page
-title: spanish Female
+title: Spanish Female
 description: Test audio files for *spanish female* speaker from the ABI corpus.
 ---
 

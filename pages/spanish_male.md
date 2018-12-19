@@ -1,6 +1,6 @@
 ---
 layout: page
-title: spanish Male
+title: Spanish Male
 description: Test audio files for *spanish male* speaker from the ABI corpus.
 ---
 

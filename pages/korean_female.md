@@ -1,6 +1,6 @@
 ---
 layout: page
-title: korean Female
+title: Korean Female
 description: Test audio files for *korean female* speaker from the ABI corpus.
 ---
 

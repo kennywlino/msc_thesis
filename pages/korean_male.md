@@ -1,6 +1,6 @@
 ---
 layout: page
-title: korean Male
+title: Korean Male
 description: Test audio files for *korean male* speaker from the ABI corpus.
 ---
 
