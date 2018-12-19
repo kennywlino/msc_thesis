@@ -9,7 +9,7 @@ description: Test audio files for *EAN female* speaker from the ABI corpus.
 ### Question #1
 
 A
-<audio src="thesis/experiments/abi/female/EAN/test_PA/EAN_female_test_PA_1A_PCM.wav" controls preload></audio>
+<audio src="experiments/abi/female/EAN/test_PA/EAN_female_test_PA_1A_PCM.wav" controls preload></audio>
 
 B
 <audio src="thesis/experiments/abi/female/EAN/test_PA/EAN_female_test_PA_1B_PCM.wav" controls preload></audio>
