@@ -1,30 +1,30 @@
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_01.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_01AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_08.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_08AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_06AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_06.wav
 
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_16.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_16AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_12AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortphrases/shortphrases_12.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_14.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_14AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_18AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_18.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_06.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_06AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_10AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_10.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_04.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_04AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_05.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_05AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_19AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_19.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_11AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_11.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_17AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_17.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_09AC-w_MLPG.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_09.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_09AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_14.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_14AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortsentences/shortsentences_12.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortsentences_12AC-w_MLPG.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/EAN/output/shortphrases_08AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/male/htl001/shortphrases/shortphrases_08.wav
 

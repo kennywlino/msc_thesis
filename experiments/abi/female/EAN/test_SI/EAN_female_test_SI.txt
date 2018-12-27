@@ -1,30 +1,30 @@
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_04.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_04AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortsentences/shortsentences_06.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_06AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_09.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_09AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_16.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_16AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_08.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_08AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_16.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_16AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_10.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_10AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_03.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_03.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_03AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortsentences/shortsentences_19.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_19AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_17AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_17.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_05AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_05.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortsentences/shortsentences_11.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_11AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortsentences/shortsentences_11.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_09AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_09.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortsentences_01AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_01.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_08AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_08.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_07AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_07.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_01AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_01.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/ean_001/female/nxp001/shortphrases/shortphrases_05.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/EAN/output/shortphrases_05AC-w_MLPG.wav
 
