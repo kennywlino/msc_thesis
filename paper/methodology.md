@@ -55,7 +55,7 @@ West Country & Truro & crn \\ \hline
 
 Using the corpora described above, I split them into two sets of experiments, with the ARCTIC corpora used in one set of experiments and the ABI corpus used in another set of experiments.
 
-Following \textcite{zhao2018a} who also works with the ARCTIC corpora, only 150 utterances or roughly \colorbox{magenta}{[9 minutes of data] following the L2-ARCTIC average} are utilized, with the utterances from the L2-ARCTIC corpus downsampled to 16 kHz to match the quality of the CMU ARCTIC corpus. 
+Following \textcite{zhao2018a} who also works with the ARCTIC corpora, only 150 utterances or roughly \colorbox{magenta}{[9 minutes of data] following the L2-ARCTIC average} are utilized, with the utterances from the L2-ARCTIC corpus downsampled to 16 kHz to match the quality of the CMU ARCTIC corpus. During the selection of the 150 utterances, any phrases not recorded by _all_ of the speakers chosen for the experiments were not considered in order to maintain the parallelness of the experiments. 
 
 Although the sample size is very small compared to the actual size of the corpora, a small sample is chosen to acknowledge the fact that often only a little amount of data is available or acquirable in building these systems. This is done similarly in the Voice Conversion Challenge 2018 as well \cite{lorenzo-trueba2018}. The 150 utterances that are used are chosen at random, but are ensured to be 150 utterances that all speakers have recorded. Out of these 150 utterances, 100 are randomly chosen as training utterances while the other 50 are used test utterances.
 
@@ -67,10 +67,18 @@ As discussed in the introduction of this work, accent conversion has been propos
 
 The speakers utilized in the experiments are also limited to speakers BDL (male) and CLB (female) from the CMU ARCTIC database, who are the native reference speakers, while the non-native speakers chosen from the L2-ARCTIC corpus are the native Korean speakers (HKK, male; YDCK, female), Hindi speakers (RRBI, male; TNI, female), and Spanish speakers (EBVS, male; NJS, female). This is mostly similar to the datasets in \textcite{zhao2018a}, with the exception of the Korean female speaker (YDCK) in place of the male Korean speaker (YKWK), which is not included in the current release (at the time of writing) of the L2-ARCTIC corpus, and the replacement of the native male Arabic speaker (ABA) with the two native Spanish speakers. 
 
+
+
 ## ABI Corpus
 Accent conversion systems have also been mentioned as a possible solution to challenges that current speech recognition systems may have. However, the few accent conversion studies conducted by those from the Texas A&M research group have focused on accent conversion between non-native and native speakers, and voice conversion studies such as the Voice Conversion Challenge 2016 and 2018 have investigated conversions between US speakers. Thus, in order to see the effects of accent conversion between native speakers and to include other varieties of English, the ABI corpus was chosen.
 
-The experiments for the ABI corpus are set up similarly to the ARCTIC experiments in terms of the proportion of training and test set utterances. However, unlike the ARCTIC corpus, the total amount of data available for the ABI corpus was less
+Although the ABI Corpus contains a total of (HOW MANY?) accents, the accents used in the experiments were chosen following the DeMarco study. After organizing the accents into comprehension order, these 3 accents were respectively the 100%, 50% and 25% different accents.
+
+The ABI Corpus had more coverage in terms of the number of speakers available per accent and gender, as well as variation in the recording environment and quality. Concretely, some speakers were much more quieter than others, while others spoke at a much more rapid pace than others, or enunciated much less than others. Thus, during the speaker selection process, I manually listened to a sample of each speaker, either from the shortphrases or shortsentences folder, and chose based on these criteria. Some of the chosen speakers had recorded some of the same words and/or phrases, mostly due to production errors such as stumbling or reading the wrong word. In the case that a chosen speaker had repeated recordings, I removed the malformed recordings in order to keep the experimental corpus as parallel as possible.
+
+
+
+The experiments for the ABI corpus are set up similarly to the ARCTIC experiments in terms of the proportion of training and test set utterances. However, unlike the ARCTIC corpus, the total amount of data available for the ABI corpus was less (INSERT TIME IN MINUTES). 
 
 Because the ABI corpus contains a large number of accents and speakers, I chose one accent as the source accent for all conversions, and three separate accents as the target accents. Specifically, I chose the Standard Southern English accent as the source accent as it   
 

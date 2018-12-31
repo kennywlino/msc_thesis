@@ -1725,7 +1725,10 @@ Following \textcite{zhao2018a} who also works with the ARCTIC corpora,
 only 150 utterances or roughly
 \colorbox{magenta}{[9 minutes of data] following the L2-ARCTIC average}
 are utilized, with the utterances from the L2-ARCTIC corpus downsampled
-to 16 kHz to match the quality of the CMU ARCTIC corpus.
+to 16 kHz to match the quality of the CMU ARCTIC corpus. During the
+selection of the 150 utterances, any phrases not recorded by \emph{all}
+of the speakers chosen for the experiments were not considered in order
+to maintain the parallelness of the experiments.
 
 Although the sample size is very small compared to the actual size of
 the corpora, a small sample is chosen to acknowledge the fact that often
@@ -1736,6 +1739,16 @@ are chosen at random, but are ensured to be 150 utterances that all
 speakers have recorded. Out of these 150 utterances, 100 are randomly
 chosen as training utterances while the other 50 are used test
 utterances.
+
+\hypertarget{experiments}{%
+\section{Experiments}\label{experiments}}
+
+\hypertarget{cmu-arctic-corpus-1}{%
+\subsection{CMU ARCTIC Corpus}\label{cmu-arctic-corpus-1}}
+
+As discussed in the introduction of this work, accent conversion has
+been proposed as better-suited feedback mechanism for accent training
+systems.
 
 The speakers utilized in the experiments are also limited to speakers
 BDL (male) and CLB (female) from the CMU ARCTIC database, who are the
@@ -1749,21 +1762,6 @@ in the current release (at the time of writing) of the L2-ARCTIC corpus,
 and the replacement of the native male Arabic speaker (ABA) with the two
 native Spanish speakers.
 
-The experiments for the ABI corpus are set up similarly to the ARCTIC
-experiments in terms of the proportion of training and test set
-utterances. However, unlike the ARCTIC corpus, the total amount of data
-available for the ABI corpus was less
-
-\hypertarget{experiments}{%
-\section{Experiments}\label{experiments}}
-
-\hypertarget{cmu-arctic-corpus-1}{%
-\subsection{CMU ARCTIC Corpus}\label{cmu-arctic-corpus-1}}
-
-As discussed in the introduction of this work, accent conversion has
-been proposed as better-suited feedback mechanism for accent training
-systems.
-
 \hypertarget{abi-corpus}{%
 \subsection{ABI Corpus}\label{abi-corpus}}
 
@@ -1776,6 +1774,34 @@ Voice Conversion Challenge 2016 and 2018 have investigated conversions
 between US speakers. Thus, in order to see the effects of accent
 conversion between native speakers and to include other varieties of
 English, the ABI corpus was chosen.
+
+Although the ABI Corpus contains a total of (HOW MANY?) accents, the
+accents used in the experiments were chosen following the DeMarco study.
+After organizing the accents into comprehension order, these 3 accents
+were respectively the 100\%, 50\% and 25\% different accents.
+
+The ABI Corpus had more coverage in terms of the number of speakers
+available per accent and gender, as well as variation in the recording
+environment and quality. Concretely, some speakers were much more
+quieter than others, while others spoke at a much more rapid pace than
+others, or enunciated much less than others. Thus, during the speaker
+selection process, I manually listened to a sample of each speaker,
+either from the shortphrases or shortsentences folder, and chose based
+on these criteria. Some of the chosen speakers had recorded some of the
+same words and/or phrases, mostly due to production errors such as
+stumbling or reading the wrong word. In the case that a chosen speaker
+had repeated recordings, I removed the malformed recordings in order to
+keep the experimental corpus as parallel as possible.
+
+The experiments for the ABI corpus are set up similarly to the ARCTIC
+experiments in terms of the proportion of training and test set
+utterances. However, unlike the ARCTIC corpus, the total amount of data
+available for the ABI corpus was less (INSERT TIME IN MINUTES).
+
+Because the ABI corpus contains a large number of accents and speakers,
+I chose one accent as the source accent for all conversions, and three
+separate accents as the target accents. Specifically, I chose the
+Standard Southern English accent as the source accent as it
 
 \hypertarget{tools-and-set-up}{%
 \subsection{Tools and set-up}\label{tools-and-set-up}}
@@ -1844,13 +1870,34 @@ conversion/accent conversion systems.
 Specifically, I gather a group of \colorbox{magenta}{[???]} listeners to
 listen to 40 test samples with 20 taken from the experiment done with
 the ARCTIC corpus and 20 taken from the ABI corpus. 10 test samples are
-used for each evaluation criteria.
+used for each evaluation criteria. The participants include a number of
+students a part of the Erasmus Mundus Language and Communication
+Technology Master's, as well as some local students from the University
+of the Basque Country, the University of Malta and other acquaintances
+of the author. The survey was also distributed by some participants
+recruited directly by the author to other acquaintances of the
+participants. The number of listeners were decided upon by continuing to
+collect results until each speaker in both corpora had at least 5
+evaluators.
+
+The survey was uploaded on to Google Forms, with the audios embedded on
+a separate page found on a GitHub Page associated with the GitHub
+repository for this work. The audios embedded were in .wav format
+(EXPAND ON FORMAT HERE), with the original audios outputted by the
+programmed system converted into a separate PCM .wav format using the
+command line interace of \texttt{ffmpeg} in order to better support
+in-browser playback as the original .wav format was not compatible with
+current HTML5 standards. These versions of the converted audios are
+included on the accompanying disc alongside the originals.
 
 They are asked to evaluate on the perceived accent similarity using an
 ABX format to decide whether X is more similar to A or B. They are then
 asked to evaluated speaker identity on a voice similarity score ranging
 from -7 representing `definitely different speakers' to +7 representing
-`definitely same speaker'.
+`definitely same speaker'. They are also asked to indicate whether or
+not they consider themselves native speakers of English to observe
+whether or not there are any particular differences between the two
+populations in their evaluations on accent conversion.
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
