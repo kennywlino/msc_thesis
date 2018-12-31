@@ -1,40 +1,40 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_20.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_20.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_20AC-w_MLPG.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_10.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortphrases/shortphrases_10.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortphrases_10AC-w_MLPG.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_07.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_07.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_07AC-w_MLPG.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_11.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_11.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_11AC-w_MLPG.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_16.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_16.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_16AC-w_MLPG.wav
+
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_01.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_01.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_01AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_18.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_18.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_18AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_04.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_04.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_04AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_08.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortphrases/shortphrases_08.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortphrases_08AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_10.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_10.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_10.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_10AC-w_MLPG.wav
 
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_12.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_12.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_12AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_13.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_13.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_13AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_05.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_05.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_05AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_02.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_02.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_02AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortsentences/shortsentences_11.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortsentences/shortsentences_11.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortsentences_11AC-w_MLPG.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortphrases/shortphrases_09.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_09.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortphrases_09AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/female/wjh001/shortphrases/shortphrases_01.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/female/joh001/shortphrases/shortphrases_01.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/female/GLA/output/shortphrases_01AC-w_MLPG.wav
 

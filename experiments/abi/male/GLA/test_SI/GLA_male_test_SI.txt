@@ -1,30 +1,30 @@
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_08.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_08AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_15.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_15AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_12.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_12AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_01AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_01.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_03AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_03.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_18AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_18.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_05AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_05.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_12AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_12.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_02AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_02.wav
-
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_10AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortsentences/shortsentences_10.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_07AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_07.wav
 
 /Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_16.wav
 /Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_16AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/sse_001/male/rkm001/shortphrases/shortphrases_18.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_18AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_09AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_09.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortsentences/shortsentences_14.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_14AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortphrases/shortphrases_06.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortphrases_06AC-w_MLPG.wav
 
-/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_01AC-w_MLPG.wav
-/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortsentences/shortsentences_01.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_20AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortsentences/shortsentences_20.wav
+
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/abi/male/GLA/output/shortsentences_05AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/data/ABI-1/gla_001/male/wht001/shortsentences/shortsentences_05.wav
 
