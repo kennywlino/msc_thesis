@@ -128,8 +128,8 @@ Departing from utilizing articulatory gesture information, \textcite{zhao2018a} 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.17]{img/phonetic-postgram.png}
-\caption{An example posteriorgram representation for the spoken phrase `basketball and baseball'.}
+\includegraphics[scale=0.22]{img/phonetic-postgram.png}
+\caption{An example posteriorgram representation for the spoken phrase `basketball and baseball'. The x-axis represents the time across the utterance and the y-axis represents the possible phonemes.}
 \label{fig:phonetic-postgram}
 \end{figure} 
 

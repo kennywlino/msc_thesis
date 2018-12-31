@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 OCT 2018 02:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 DEC 2018 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1527,6 +1527,12 @@ LaTeX Warning: Label `voice-conversion' multiply defined.
 
 LaTeX Warning: Label `accent-conversion' multiply defined.
 
+
+LaTeX Warning: Label `cmu-arctic-corpus' multiply defined.
+
+
+LaTeX Warning: Label `abi-corpus' multiply defined.
+
 )
 \openout1 = `output.aux'.
 
@@ -1664,7 +1670,7 @@ Package biblatex Info: Reference section=0 on input line 69.
 Package biblatex Info: Reference segment=0 on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
- <img/UM-coat-of-arms.png, id=131, 501.875pt x 675.52374pt>
+ <img/UM-coat-of-arms.png, id=147, 501.875pt x 675.52374pt>
 File: img/UM-coat-of-arms.png Graphic file (type png)
 
 <use img/UM-coat-of-arms.png>
@@ -1765,106 +1771,110 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 
+l.245 
        [1
 
-]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 251.
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 304.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 251.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 304.
 
-[2]
+[3] [4]
 Chapter 2.
-[3
+[5
 
 
-] [4] <img/vc-flowchart.png, id=255, 737.75626pt x 1114.1625pt>
+] [6] <img/vc-flowchart.png, id=286, 737.75626pt x 1114.1625pt>
 File: img/vc-flowchart.png Graphic file (type png)
 
 <use img/vc-flowchart.png>
-Package pdftex.def Info: img/vc-flowchart.png used on input line 404.
-(pdftex.def)             Requested size: 147.54863pt x 222.82855pt.
+Package pdftex.def Info: img/vc-flowchart.png used on input line 465.
+(pdftex.def)             Requested size: 184.43861pt x 278.53995pt.
 
-Underfull \vbox (badness 1371) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./img/vc-flowchart.png>]
+ [7]
+[8 <./img/vc-flowchart.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 440.
- [6]
-<img/mfcc-extraction.png, id=279, 1862.96pt x 292.09125pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 501.
+ [9]
+<img/mfcc-extraction.png, id=314, 1862.96pt x 292.09125pt>
 File: img/mfcc-extraction.png Graphic file (type png)
 
 <use img/mfcc-extraction.png>
-Package pdftex.def Info: img/mfcc-extraction.png used on input line 502.
-(pdftex.def)             Requested size: 409.85248pt x 64.26027pt.
+Package pdftex.def Info: img/mfcc-extraction.png used on input line 563.
+(pdftex.def)             Requested size: 447.11954pt x 70.10332pt.
 
-Underfull \hbox (badness 1442) in paragraph at lines 509--520
+Overfull \hbox (31.14038pt too wide) in paragraph at lines 563--564
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 570--581
 \OT1/ptm/m/n/12 A Gaus-sian mix-ture model is a type of prob-a-b-lis-tic model 
 that aims to rep-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 509--520
+Underfull \hbox (badness 1946) in paragraph at lines 570--581
 \OT1/ptm/m/n/12 re-sent nor-mally dis-tributed groups within a set. This is bas
 ed on the idea
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 509--520
+Underfull \hbox (badness 3492) in paragraph at lines 570--581
 \OT1/ptm/m/n/12 of the nor-mal, or \OT1/ptm/m/it/12 Gaus-sian \OT1/ptm/m/n/12 d
 is-tri-bu-tion, which can be see in []Fig-ure 2.3[][].
  []
 
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [7 <./img/mfcc-extraction.png>] <img/gaussian-dist.png, id=288, 722.7pt x 461.
-725pt>
+<img/gaussian-dist.png, id=317, 722.7pt x 461.725pt>
 File: img/gaussian-dist.png Graphic file (type png)
 
 <use img/gaussian-dist.png>
-Package pdftex.def Info: img/gaussian-dist.png used on input line 523.
-(pdftex.def)             Requested size: 216.81166pt x 138.51857pt.
-
-<img/gmm-height.png, id=291, 1181.41376pt x 639.38875pt>
+Package pdftex.def Info: img/gaussian-dist.png used on input line 584.
+(pdftex.def)             Requested size: 289.07487pt x 184.68672pt.
+ [10 <./img/mfcc-extraction.png>]
+<img/gmm-height.png, id=327, 1181.41376pt x 639.38875pt>
 File: img/gmm-height.png Graphic file (type png)
 
 <use img/gmm-height.png>
-Package pdftex.def Info: img/gmm-height.png used on input line 546.
-(pdftex.def)             Requested size: 236.27856pt x 127.87547pt.
- [8 <./img/gaussian-dist.png>]
-<img/em-alg2.jpg, id=301, 361.35pt x 310.15875pt>
+Package pdftex.def Info: img/gmm-height.png used on input line 607.
+(pdftex.def)             Requested size: 354.42686pt x 191.8181pt.
+ [11 <./img/gaussian-dist.png> <./img/gmm-height.png>]
+<img/em-alg2.jpg, id=337, 361.35pt x 310.15875pt>
 File: img/em-alg2.jpg Graphic file (type jpg)
  <use img/em-alg2.jpg>
-Package pdftex.def Info: img/em-alg2.jpg used on input line 576.
-(pdftex.def)             Requested size: 124.79501pt x 107.11372pt.
+Package pdftex.def Info: img/em-alg2.jpg used on input line 637.
+(pdftex.def)             Requested size: 166.38911pt x 142.81673pt.
 
-<img/em-alg3.jpg, id=302, 361.35pt x 310.15875pt>
+<img/em-alg3.jpg, id=338, 361.35pt x 310.15875pt>
 File: img/em-alg3.jpg Graphic file (type jpg)
  <use img/em-alg3.jpg>
-Package pdftex.def Info: img/em-alg3.jpg used on input line 582.
-(pdftex.def)             Requested size: 124.79501pt x 107.11372pt.
+Package pdftex.def Info: img/em-alg3.jpg used on input line 643.
+(pdftex.def)             Requested size: 166.38911pt x 142.81673pt.
 
-<img/em-alg4.jpg, id=303, 361.35pt x 310.15875pt>
+<img/em-alg4.jpg, id=339, 361.35pt x 310.15875pt>
 File: img/em-alg4.jpg Graphic file (type jpg)
  <use img/em-alg4.jpg>
-Package pdftex.def Info: img/em-alg4.jpg used on input line 588.
-(pdftex.def)             Requested size: 124.79501pt x 107.11372pt.
+Package pdftex.def Info: img/em-alg4.jpg used on input line 651.
+(pdftex.def)             Requested size: 187.18935pt x 160.67296pt.
 
-[9 <./img/gmm-height.png> <./img/em-alg2.jpg> <./img/em-alg3.jpg> <./img/em-alg
-4.jpg>] <img/perceptron.png, id=312, 1069.9975pt x 622.325pt>
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [12 <./img/em-alg2.jpg> <./img/em-alg3.jpg> <./img/em-alg4.jpg>]
+<img/perceptron.png, id=347, 1069.9975pt x 622.325pt>
 File: img/perceptron.png Graphic file (type png)
-
-<use img/perceptron.png>
-Package pdftex.def Info: img/perceptron.png used on input line 646.
+ <use img/perceptron.png>
+Package pdftex.def Info: img/perceptron.png used on input line 709.
 (pdftex.def)             Requested size: 213.99571pt x 124.46278pt.
- [10 <./img/perceptron.png>]
+
+[13 <./img/perceptron.png>]
 ! Undefined control sequence.
-l.675 \tightlist
+l.738 \tightlist
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1873,7 +1883,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.697 \tightlist
+l.760 \tightlist
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1881,81 +1891,117 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11] <img/neural-network.png, id=336, 712.6625pt x 457.71pt>
+[14] <img/neural-network.png, id=371, 712.6625pt x 457.71pt>
 File: img/neural-network.png Graphic file (type png)
 
 <use img/neural-network.png>
-Package pdftex.def Info: img/neural-network.png used on input line 761.
+Package pdftex.def Info: img/neural-network.png used on input line 824.
 (pdftex.def)             Requested size: 249.43561pt x 160.2009pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13 <./img/neural-network.png>] [14]
-Chapter 3.
-[15
+ [15]
 
-] [16] [17] [18] [19] [20] [21]pdfTeX warning (ext4): destination with the same
+LaTeX Warning: Reference `experiment-2-i-vector-based-accent-conversion' on pag
+e 16 undefined on input line 853.
+
+[16 <./img/neural-network.png>]
+Chapter 3.
+[17
+
+] [18] [19] [20] [21] [22] [23]pdfTeX warning (ext4): destination with the same
  identifier (name{voice-conversion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1146 ...ice conversion}\label{voice-conversion}}
-                                                   [22] [23]
+l.1196 ...ice conversion}\label{voice-conversion}}
+                                                   [24] [25]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1266.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1317.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1266.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1317.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1266.
- [24] [25]pdfTeX warning (ext4): destination with the same identifier (name{acc
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1317.
+ [26] [27]pdfTeX warning (ext4): destination with the same identifier (name{acc
 ent-conversion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1360 ...nt conversion}\label{accent-conversion}}
-                                                   [26] [27] [28]
-<img/phonetic-postgram.png, id=525, 1080.035pt x 1072.005pt>
+l.1411 ...nt conversion}\label{accent-conversion}}
+                                                   [28] [29] [30]
+<img/phonetic-postgram.png, id=555, 1080.035pt x 1072.005pt>
 File: img/phonetic-postgram.png Graphic file (type png)
 
 <use img/phonetic-postgram.png>
-Package pdftex.def Info: img/phonetic-postgram.png used on input line 1531.
-(pdftex.def)             Requested size: 183.60352pt x 182.23843pt.
+Package pdftex.def Info: img/phonetic-postgram.png used on input line 1582.
+(pdftex.def)             Requested size: 237.60843pt x 235.84183pt.
 
 Underfull \vbox (badness 3148) has occurred while \output is active []
 
- [29]
-[30 <./img/phonetic-postgram.png>] [31] [32
+ [31]
+[32 <./img/phonetic-postgram.png>] [33] [34
 
 ]
 Chapter 4.
-[33
+[35
 
-] [34] [35] [36]
+] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+[]\OT1/ptm/m/n/12 Following [][]Zhao, Son-saat, Levis, et al. ([]2018[]) who al
+so works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+\OT1/ptm/m/n/12 with the ARC-TIC cor-pora, only 150 ut-ter-ances or roughly
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 1724--1729
+[][][][][][] \OT1/ptm/m/n/12 are uti-lized, with the ut-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+[38] [39] [40
+
+]
 Chapter 5.
-[37
+[41
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cmu-arctic-c
+orpus}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1859 ...ARCTIC Corpus}\label{cmu-arctic-corpus}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{abi-corpus}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.1862 \subsection{ABI Corpus}\label{abi-corpus}}
+                                                  [42] [43
 
 
-] [38] [39
-
-
-] [40]
-Underfull \hbox (badness 1286) in paragraph at lines 1757--1757
+] [44]
+Underfull \hbox (badness 1286) in paragraph at lines 1870--1870
 [][]\OT1/ptm/m/n/12 Tejedor-Garc[]^^Pa, C., Es-cud-ero, D., Gonz[]alez-Ferreras
 , C., C[]amara-Arenas, E., &
  []
 
-[41]
+[45]
 \tf@thm=\write10
 \openout10 = `output.thm'.
 
- [42]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1757.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1757.
+ [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1870.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1870.
  (./output.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1757.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1757.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1870.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1870.
 
 Package rerunfilecheck Info: File `output.out' has not changed.
-(rerunfilecheck)             Checksum: C911603179A1EF6770D9D9539C17A7C3;2006.
+(rerunfilecheck)             Checksum: 9BAEFCE1F5423362EBE2A3DDC82B359D;2255.
 
 
 LaTeX Warning: There were undefined references.
@@ -1976,13 +2022,13 @@ Package logreq Info: Writing requests to 'output.run.xml'.
 ### simple group (level 1) entered at line 64 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37983 strings out of 492995
- 844243 string characters out of 6132704
- 1443777 words of memory out of 5000000
- 40741 multiletter control sequences out of 15000+600000
+ 38006 strings out of 492995
+ 844540 string characters out of 6132704
+ 1444179 words of memory out of 5000000
+ 40752 multiletter control sequences out of 15000+600000
  45710 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,96p,2034b,4213s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,96p,2034b,4233s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -2003,10 +2049,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on output.pdf (49 pages, 1256260 bytes).
+Output written on output.pdf (53 pages, 1263084 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 632 compressed objects within 7 object streams
- 159 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 

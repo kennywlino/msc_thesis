@@ -8,8 +8,20 @@ In this chapter, I detail how the previously described experiments are evaluated
 Voice conversion and accent conversion systems can be evaluated using either: a) objective measures or b) subjective measures. With objective measures, evaluation can be difficult as it requires intricate formulas that do not necessarily extrapolate across datasets or even individual audios \parencite{felps2010}. With subjective methods, 
 
 
-In both cases, accent conversion systems are often evaluated on three features: the acoustic quality, speaker identity, and accentedness of each converted audio. 
+[]In both cases, accent conversion systems are often evaluated on three features: the acoustic quality, speaker identity, and accentedness of each converted audio.]
 
-In the case of my own experiments, I choose to evaluate using a perceptual study due its reliability and because of the complexity of using objective measures. I adapt the method utilized in \textcite{zhao2018a}, which in turn was adapted from \textcite{aryal2014}, another previous work from the same research group. This is done so the reimplementation of their baselines can be compared against the baselines in their work and so the i-vector method can be directly juxtaposed against both sets of baselines as well as the current best method of using phonetic posteriorgrams discussed in \textcite{zhao2018a}. 
+In the case of my own experiments, I choose to evaluate using a perceptual study due its reliability and because of the complexity of using objective measures. I adapt the method utilized in \textcite{zhao2018a}, which in turn was adapted from \textcite{aryal2014}, another previous work from the same research group. This is done so that both experiments here can be juxtaposed against the results of their systems and because these metrics are fairly consistent throughout other perceptual evaluations of voice conversion/accent conversion systems. 
 
-Specifically, I gather a group of \colorbox{magenta}{[15-30?]} listeners to listen to \colorbox{magenta}{[15-150?]} test samples, with [33%] taken from each system. They are asked to evaluate on the acoustic quality using a 5-point Mean Opinion Scoring system, with 1 representing 'Bad' and 5 representing 'Excellent' and the speaker identity on a voice similarity score ranging from -7 representing 'definitely different speakers' to +7 representing 'definitely same speaker'. They are then asked to evaluate the accentedness of the test samples using a preference test to compare the VC system vs. the i-vector system, the AC system vs. the i-vector system, and the original L2 audio vs. the i-vector system. \colorbox{magenta}{[How will this be compared to the posteriorgram system?]} 
+
+Specifically, I gather a group of \colorbox{magenta}{[???]} listeners to listen to 40 test samples with 20 taken from the experiment done with the ARCTIC corpus and 20 taken from the ABI corpus. 10 test samples are used for each evaluation criteria. 
+
+
+
+They are asked to evaluate on the perceived accent similarity using an ABX format to decide whether X is more similar to A or B. They are then asked to evaluated speaker identity on a voice similarity score ranging from -7 representing 'definitely different speakers' to +7 representing 'definitely same speaker'. 
+
+
+# Results
+
+## CMU ARCTIC Corpus
+
+## ABI Corpus

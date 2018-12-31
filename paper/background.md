@@ -23,7 +23,7 @@ A visual representation that summarizes the voice conversion process can be seen
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.20]{img/vc-flowchart.png}
+\includegraphics[scale=0.25]{img/vc-flowchart.png}
 \caption{The training and conversion processes of a typical VC system.}
 \label{fig:vc-flowchart}
 \end{figure} 
@@ -63,7 +63,7 @@ A visual representation of the whole MFCC extraction process can be seen in \aut
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.22]{img/mfcc-extraction.png}
+\includegraphics[scale=0.24]{img/mfcc-extraction.png}
 \caption{The extraction of sequence 39-dimensional MFCC vectors from a waveform.}
 \label{fig:vc-flowchart}
 \end{figure} 
@@ -73,7 +73,7 @@ A Gaussian mixture model is a type of probablistic model that aims to represent 
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.30]{img/gaussian-dist.png}
+\includegraphics[scale=0.40]{img/gaussian-dist.png}
 \caption{The Gaussian distribution with different means (\( \mu \)) and variances (\( \sigma^2 \)).}
 \label{fig:gaussian-dist}
 \end{figure} 
@@ -82,7 +82,7 @@ Gaussian mixture models are based on the principle that if a unimodal (one 'peak
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.20]{img/gmm-height.png}
+\includegraphics[scale=0.30]{img/gmm-height.png}
 \caption{An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis. The probabilities are given in the top right corner.} 
 \label{fig:gmm-height}
 \end{figure} 
@@ -92,22 +92,24 @@ However, as simple as this sounds the most advantageous point of the Gaussian mi
 
 Because it is an _unsupervised_ model, it requires a special method to estimate the appropriate parameters. The most common method used for this is known as _expectation maximization_. This algorithm is used for maximum likelihood estimation. In other words, this algorithm tries to find the most appropriate group for each datapoint by calculating the probability of it being in a certain group and selecting the most likely one. This is done iteratively by initializing reasonable values, and then calculating the probability of membership in each cluster (the _expectation_ step) and updating each clusters location, normalization and shape using the probabilities calculated (the _maximization_ step) until the algorithms converge \parencite{vanderplas2016}. A visual example of the convergence process taken from \textcite{mcgonagle2016} can be seen in \autoref{fig:em-converge}.
 
-\begin{figure}[ht!]
+\begin{figure}[t!p]
    \centering
-   \begin{subfigure}[H]{0.3\textwidth}
-      \includegraphics[width=\textwidth]{img/em-alg2.jpg}
+   \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=1\textwidth]{img/em-alg2.jpg}
          \caption{Initizalization}
          \label{fig:gmm-init}
    \end{subfigure}
    \quad
-   \begin{subfigure}[H]{0.3\textwidth}
-      \includegraphics[width=\textwidth]{img/em-alg3.jpg}
+   \begin{subfigure}[b]{0.4\textwidth}
+      \includegraphics[width=1\textwidth]{img/em-alg3.jpg}
          \caption{Mid-convergence}
          \label{fig:gmm-mid}
    \end{subfigure}
-   \quad
-   \begin{subfigure}[H]{0.3\textwidth}
-      \includegraphics[width=\textwidth]{img/em-alg4.jpg}
+   
+   
+   \begin{subfigure}[b]{\textwidth}
+      \centering
+      \includegraphics[width=0.45\textwidth]{img/em-alg4.jpg}
          \caption{Converged}
          \label{fig:gmm-conv}
    \end{subfigure}
@@ -198,7 +200,3 @@ While neural networks are described at a high level here in order to facilitate 
 
 Neural networks in the context of voice/accent conversion will be further described in \autoref{accent-conversion} and \autoref{experiment-2-i-vector-based-accent-conversion}.
 
-\subsection{I-vectors}
-Identity vectors, or _i-vectors_ are used as a method to model both the intra-domain and inter-domain variables of speech signals in the same low dimensional space. They are considered one of the more modern methods in speech recognition, compared to the more classic Gaussian mixture models and its modification, Gaussian Mixture Models with universal background model (GMM-UBM), and joint factor analysis. In fact, i-vectors stem from a modification of the joint factor anaylsis method which is explained as the following.
-
-\colorbox{magenta}{[Continue this part]}
