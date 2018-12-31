@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0017AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0010AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0142AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0119AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0033AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0030AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0109AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0079AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0032AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/male/spanish/output/EBVS_arctic_a0046AC-w_MLPG.wav

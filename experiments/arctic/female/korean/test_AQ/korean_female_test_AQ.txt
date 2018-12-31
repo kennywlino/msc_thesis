@@ -1,0 +1,10 @@
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0066AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0146AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0119AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0020AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0083AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0028AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0069AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0043AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0110AC-w_MLPG.wav
+/Users/kennylino/Documents/em_lct/UoM/thesis/experiments/arctic/female/korean/output/YDCK_arctic_a0128AC-w_MLPG.wav
