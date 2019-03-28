@@ -5,12 +5,14 @@ name = "pypi"
 
 [packages]
 jupyterlab = "*"
-sidekit = "*"
 pysptk = "*"
 pyworld = "*"
 librosa = "*"
 tqdm = "*"
 nnmnkwii = "*"
+holoviews = {version = "*", extras = ["extras"]}
+selenium = "*"
+bokeh = "*"
 
 [dev-packages]
 

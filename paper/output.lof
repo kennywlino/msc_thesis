@@ -1,28 +1,51 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {american}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\babel@toc {american}{}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The training and conversion processes of a typical VC system.\relax }}{8}{figure.caption.6}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The extraction of sequence 39-dimensional MFCC vectors from a waveform.\relax }}{10}{figure.caption.7}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The training and conversion processes of a typical VC system. Taken from \textcite {mohammadi2017}.\relax }}{8}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The Gaussian distribution with different means (\( \mu \)) and variances (\( \sigma ^2 \)).\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The windowing process. A reduplication of an image from \textcite {demarco2015}.\relax }}{10}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis. The probabilities are given in the top right corner.\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces An example of the rectangular window vs. the Hamming window on a signal. Taken from \textcite {lebourdais2015}.\relax }}{11}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Gaussian Mixture Model convergence using the Expectation-Maximization algorithm.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mel-filter banks. Taken from \textcite {fayek2016}.\relax }}{11}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces A visual representation of the perceptron.\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The waveform to spectrum to cepstrum process.\relax }}{12}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces An example of a neural network.\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The extraction of sequence 39-dimensional MFCC vectors from a waveform. Taken from \textcite {jurafsky2009}.\relax }}{13}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The Gaussian distribution with different means (\( \mu \)) and standard deviations (\( \sigma \)).\relax }}{14}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces An example of a GMM using male and female height. The likelihoods for each gender for someone 168cm (66in) tall is calculated using the percentage of men and women in the dataset from the vertical axis.\relax }}{15}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Gaussian Mixture Model convergence using the Expectation-Maximization algorithm. Taken from \textcite {mcgonagle2016}.\relax }}{16}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces A visual representation of the perceptron.\relax }}{18}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces An example of a neural network.\relax }}{20}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces An example posteriorgram representation for the spoken phrase `basketball and baseball'. The x-axis represents the time across the utterance and the y-axis represents the possible phonemes.\relax }}{32}{figure.caption.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An example posteriorgram representation for the spoken phrase `basketball and baseball'. The x-axis represents the time across the utterance and the y-axis represents the possible phonemes. Taken from \textcite {hazen2009}.\relax }}{35}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The distribution of speakers in each experiment.\relax }}{45}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The structure of the evaluation questions.\relax }}{46}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The distribution of correct answers on the Perceived Accent task for the ARCTIC Corpus per participant.\relax }}{48}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The distribution of the mean voice similarity scores on the Speaker Identity task per participant.\relax }}{49}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The distribution of correct answers on the Perceived Accent task for the ARCTIC Corpus per participant.\relax }}{51}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The distribution of the mean voice similarity scores on the Speaker Identity task for the ABI corpus per participant.\relax }}{53}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
